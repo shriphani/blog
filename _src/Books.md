@@ -2,6 +2,8 @@ These are the books I've recently read:
 
 * 2013
     * June
+        * [Genghis: Bones of the Hills: A Novel](http://www.amazon.com/gp/product/B001NLL9IM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001NLL9IM&linkCode=as2&tag=shriswebl-20) - Conn Iggulden
+        * [Genghis: Lords of the Bow: A Novel](http://www.amazon.com/gp/product/B000WJQUYO/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000WJQUYO&linkCode=as2&tag=shriswebl-20) - Conn Iggulden
     * January
         * [The Great Gatsby](http://www.amazon.com/gp/product/B000FC0PDA/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000FC0PDA) - Scott Fitzgerald
         * [Watchmen](http://www.amazon.com/gp/product/B005CRQ2IU/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B005CRQ2IU) - Alan Moore
