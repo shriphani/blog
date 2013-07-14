@@ -1,6 +1,6 @@
     Title: Fast dates parser
     Date: 2013-07-13T23:12:59
-    Tags: DRAFT, research, clueweb12++, data processing
+    Tags: research, clueweb12++, data processing
 
 The Clueweb12++ crawl aims at accumulating social media content from the Clueweb crawl's time frame. Our pipeline thus far was as follows:
 
