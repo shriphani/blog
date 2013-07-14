@@ -47,3 +47,5 @@ pre {
 }
 
 ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
+
+p.date-and-tags { font-size: 0.75em; font-family: 'Helvetica Neue'; color: gray}
