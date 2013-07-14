@@ -6,8 +6,8 @@
          could also use in other parts of this template if you
          wish. -->
     <meta charset="utf-8" />
-    <title>About page</title>
-    <meta name="description" content="About page: Your about page, here. ...">
+    <title>About</title>
+    <meta name="description" content=" I am a PhD candidate at Carnegie Mellon University. I am advised by Jamie Callan. I was an undergraduate in CS at Purdue University and have completed internships at Microsoft and Yelp. I work primarily in information retrieval. I am currently building the ClueWeb12++ dataset. You can track our progress here. ...">
     <meta name="author"      content="The Unknown Blogger">
     <meta name="keywords"    content="">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
@@ -43,24 +43,6 @@
     </script>
   </head>
   <body>
-    <!-- A standard Twitter Bootstrap nav bar -->
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <!-- Notice we can define Racket functions. Here's a
-                 helper to add class="active" to a nav bar item if it
-                 is for this page (as indiated by `uri-path`) -->
-            <li>
-              <a href="/index.html" class="brand">All Posts</a>
-            </li> 
-            <li class="active">
-              <a href="/About.html">About</a>
-            </li> 
-          </ul>
-        </div>
-      </div>
-    </div>
     <!-- This div's class should be "container-fluid" if you're using
          Bootstrap's responsive CSS, else "container". -->
     <div class="container-fluid">
@@ -75,32 +57,48 @@
         <div id="content" class="span9">
           <!-- To put something only on the home page, check for
                `uri-path` being "/index.html" -->
+          <div id="header">
+            <h1><a href="/index.html">Shriphani Palakodety</a></h1>
+            <ul class="navbar">
+              <li>
+                <a href="/About.html">About</a>
+              </li>
+              <li>
+                |
+              </li>
+              <li>
+                <a href="/Books.html">Books</a>
+              </li>
+              <li>
+                |
+              </li>
+              <li>
+                <a href="/Quotes.html">Quotes</a>
+              </li>
+            </ul>
+          </div>
 
-          <!-- Index pages for posts have non-#f `tag` -->
+<p> I am a PhD candidate at Carnegie Mellon University. I am advised by Jamie Callan. I was an undergraduate in CS at Purdue University and have completed internships at Microsoft and Yelp.</p>
 
-          <!-- The main page contents are in `contents` -->
-
-<h1 id="About page">About page</h1>
-
-<p>Your about page, here.</p>
+<p>I work primarily in information retrieval. I am currently building the ClueWeb12++ dataset. You can track our progress <a href="http://boston.lti.cs.cmu.edu/spalakod/posts/">here</a>.</p>
         </div>
         <!-- Right column -->
+      </div>
+      <footer>
+        <hr />
         <div id="right-sidebar" class="span3">
           <!-- `tags/feeds` is a list of tags and feeds -->
 
 <p>Tags:
  <ul>
-  <li><a href="/tags/bar.html">bar</a>&nbsp;(1) <a href="/feeds/bar.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/baz.html">baz</a>&nbsp;(1) <a href="/feeds/baz.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/foo.html">foo</a>&nbsp;(1) <a href="/feeds/foo.atom.xml"><img src="/img/feed.png" /></a></li>
-  <li><a href="/tags/tag-with-spaces.html">tag with spaces</a>&nbsp;(1) <a href="/feeds/tag with spaces.atom.xml"><img src="/img/feed.png" /></a></li></ul>
+  <li><a href="/tags/hello.html">hello</a>&nbsp;(1) <a href="/feeds/hello.atom.xml"><img src="/img/feed.png" /></a></li></ul>
  <p><a href="/index.html">All Posts</a> <a href="/feeds/all.atom.xml"><img src="/img/feed.png" /></a></p></p>
           <!-- Example of a Twitter follow button -->
-          <a href="https://twitter.com/racketlang"
+          <a href="https://twitter.com/shriphani"
              class="twitter-follow-button"
              data-show-count="false"
              data-lang="en">
-            "Follow RacketLang"
+            "Follow Shriphani"
           </a>
           <script type="text/javascript">
             !function(d,s,id){
@@ -114,14 +112,12 @@
             }(document,"script","twitter-wjs");
           </script>
         </div>
-      </div>
-      <footer>
-        <hr />
+
         <p>Site generated
         by <a href="https://github.com/greghendershott/frog">Frog</a>,
-        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p> (modified version of Frog used on this site available <a href="http://github.com/shriphani/frog">here</a>)
         <p>Using <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
-        <p><em>Your legal notice here</em>.</p>
+        <p><em>(c) Shriphani Palakodety 2013</em>.</p>
       </footer>
     </div>
   </body>

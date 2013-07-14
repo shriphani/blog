@@ -1,5 +1,39 @@
 /* custom.css */
 
+a {
+    color: #F90;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 3.5em;
+    margin-bottom: 0.25em;
+}
+
+h1 a {
+    font-family: Georgia;
+    color: black;
+}
+
+
+#header {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', serif;
+}
+
+h2 a { font-family:'Helvetica Neue'; color: #000000; }
+
+div.container { color: #FFFFFF; }
+
+body {
+    font-family: Georgia;
+    font-size: 18px;
+}
+
 code {
     color: black;
 }
@@ -11,3 +45,5 @@ pre {
     white-space: pre;
     width: inherit;
 }
+
+ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }

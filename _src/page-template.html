@@ -30,25 +30,6 @@
     @google-analytics["UA-xxxxx" "example.com"]
   </head>
   <body>
-    <!-- A standard Twitter Bootstrap nav bar -->
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <!-- Notice we can define Racket functions. Here's a
-                 helper to add class="active" to a nav bar item if it
-                 is for this page (as indiated by `uri-path`) -->
-            @(define (nav-item uri label [a-attribs ""])
-              @list{
-                <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
-                  <a href="@|uri|"@|a-attribs|>@|label|</a>
-                </li> })
-            @nav-item["/index.html" "All Posts" " class=\"brand\""]
-            @nav-item["/About.html" "About"]
-          </ul>
-        </div>
-      </div>
-    </div>
     <!-- This div's class should be "container-fluid" if you're using
          Bootstrap's responsive CSS, else "container". -->
     <div class="container-fluid">
@@ -63,33 +44,45 @@
         <div id="content" class="span9">
           <!-- To put something only on the home page, check for
                `uri-path` being "/index.html" -->
-          @(when (string-ci=? uri-path "/index.html")
+	  <div id="header">
             @list{
-              <h1>Welcome</h1>
-              <p>Here is some text that only goes on the home page,
-                because we matched on <code>uri-path</code>
-                being <code>/index.html</code>.</p> })
-          <!-- Index pages for posts have non-#f `tag` -->
-          @(when tag
-            @list{<h1>Posts tagged <em>@|tag|</em></h1>})
-          <!-- The main page contents are in `contents` -->
+              <h1><a href="/index.html">Shriphani Palakodety</a></h1>
+	      <ul class="navbar">
+		<li>
+		  <a href="/About.html">About</a>
+		</li>
+		<li>
+		  |
+		</li>
+		<li>
+		  <a href="/Books.html">Books</a>
+		</li>
+		<li>
+		  |
+		</li>
+		<li>
+		  <a href="/Quotes.html">Quotes</a>
+		</li>
+	      </ul>}
+	  </div>
           @|contents|
         </div>
         <!-- Right column -->
+      </div>
+      <footer>
+	<hr />
         <div id="right-sidebar" class="span3">
           <!-- `tags/feeds` is a list of tags and feeds -->
           @|tags/feeds|
           <!-- Example of a Twitter follow button -->
-          @twitter-follow-button["racketlang" "Follow RacketLang"]
+          @twitter-follow-button["shriphani" "Follow Shriphani"]
         </div>
-      </div>
-      <footer>
-        <hr />
+
         <p>Site generated
         by <a href="https://github.com/greghendershott/frog">Frog</a>,
-        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p> (modified version of Frog used on this site available <a href="http://github.com/shriphani/frog">here</a>)
         <p>Using <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
-        <p><em>Your legal notice here</em>.</p>
+        <p><em>(c) Shriphani Palakodety 2013</em>.</p>
       </footer>
     </div>
   </body>
