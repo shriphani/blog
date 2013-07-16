@@ -1,7 +1,7 @@
 # Required: Should NOT end in trailing slash.
 scheme/host = http://blog.shriphani.com
 
-title = Shriphani Palakodety
+title = SHRIPHANI PALAKODETY
 author = Shriphani Palakodety
 
 # Whether to show the count of posts next to each tag in sidebar

@@ -5,13 +5,13 @@ a {
 }
 
 h1 {
-    font-family: Georgia;
+    font-family: 'Avenir Black';
     font-size: 3.5em;
     margin-bottom: 0.25em;
 }
 
 h1 a {
-    font-family: Georgia;
+    font-family: Avenir, 'Open Sans', sans-serif;
     color: black;
 }
 
