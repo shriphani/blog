@@ -2,7 +2,7 @@
 scheme/host = http://blog.shriphani.com
 
 title = SHRIPHANI PALAKODETY
-author = Shriphani Palakodety
+author = SHRIPHANI PALAKODETY
 
 # Whether to show the count of posts next to each tag in sidebar
 show-tag-counts? = true

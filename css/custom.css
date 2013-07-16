@@ -6,12 +6,14 @@ a {
 
 h1 {
     font-family: 'Avenir Black';
-    font-size: 3.5em;
+    font-size: 3em;
+    font-weight: 900;
     margin-bottom: 0.25em;
 }
 
 h1 a {
-    font-family: Avenir, 'Open Sans', sans-serif;
+    font-family: 'Avenir Black', Avenir, Georgia, 'Open Sans', sans-serif;
+    font-weight: 900;
     color: black;
 }
 
@@ -30,8 +32,8 @@ h2 a { font-family:'Helvetica Neue'; color: #000000; }
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Georgia;
-    font-size: 18px;
+    font-family: Georgia, 'Crimson Text', Garamond, 'EB Garamond';
+    font-size: 20px;
 }
 
 code {
