@@ -1,4 +1,7 @@
 /* custom.css */
+html {
+  height: 100%;
+}
 
 a {
     color: #F90;
@@ -6,14 +9,13 @@ a {
 
 h1 {
     font-family: 'Avenir Black';
-    font-size: 3em;
-    font-weight: 900;
+    font-size: 3.5em;
     margin-bottom: 0.25em;
+    width: 900px;
 }
 
 h1 a {
     font-family: 'Avenir Black', Avenir, Georgia, 'Open Sans', sans-serif;
-    font-weight: 900;
     color: black;
 }
 
@@ -32,7 +34,7 @@ h2 a { font-family:'Helvetica Neue'; color: #000000; }
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Georgia, 'Crimson Text', Garamond, 'EB Garamond';
+    font-family: Palatino, Georgia, 'Crimson Text', Garamond, 'EB Garamond';
     font-size: 20px;
 }
 
@@ -51,3 +53,20 @@ pre {
 ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
 
 p.date-and-tags { font-size: 0.75em; font-family: 'Helvetica Neue'; color: gray}
+
+.centered {
+    margin-left: 27.659574468085104%;
+    margin-right: 27.659574468085104%;
+}
+
+html {
+    height: 100%;
+}
+
+.footer {
+  position: absolute;
+  clear:both;
+  padding-top:20px;
+  margin-left:25.641025641025642%;
+  width:48.717948717948715%;
+}
