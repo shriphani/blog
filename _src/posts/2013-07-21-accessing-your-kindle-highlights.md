@@ -14,9 +14,22 @@ For ClueWeb, I discarded the use of Selenium since running a browser impedes the
 <pre>
 (logging into kindle.amazon.com -> downloading a list o of book-specific-s-expressions -> download highlights for desired book/author)
 </pre>
+
 The following routines accomplish that. I dump both to file since my list of books read does not grow by the second so it is feasible to work with a stale file.
 
 <script src="http://gist-it.appspot.com/github/shriphani/clojure-kindle-highlights/blob/master/src/kindle_highlights/core.clj"></script>
+
+The resulting <code>s-expressions</code> look like this:
+
+Book-Details:
+
+<script src="https://gist.github.com/shriphani/6049714.js"></script>
+
+And the highlights:
+
+<script src="https://gist.github.com/shriphani/6049717.js"></script>
+
+Both there are (slightly-curated) <code>s-expressions</code> from my reading lists and Kurt Vonnegut books respectively. You can work on curating the resulting <code>s-expressions</code> using your own techniques.
 
 I have a command line sequence around it. Details on the github repo wiki [<a href="#Github" name="Github-back">2</a>].
 What would be more interesting is to make the filter a routine a bit better than a linear scan + regular expression match.
