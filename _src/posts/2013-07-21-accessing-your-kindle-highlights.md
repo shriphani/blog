@@ -31,7 +31,7 @@ And the highlights:
 
 Both there are (slightly-curated) <code>s-expressions</code> from my reading lists and Kurt Vonnegut books respectively. You can work on curating the resulting <code>s-expressions</code> using your own techniques.
 
-I have a command line sequence around it. Details on the github repo wiki [<a href="#Github" name="Github-back">2</a>].
+I have a command line wrapper around it. Details on the github repo wiki [<a href="#Github" name="Github-back">2</a>].
 What would be more interesting is to make the filter a routine a bit better than a linear scan + regular expression match.
 
 [<a name="GEB">1</a>] <a href="http://www.amazon.com/gp/product/0465026567/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0465026567&linkCode=as2&tag=shriswebl-20">Gödel, Escher, Bach: An Eternal Golden Braid</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=shriswebl-20&l=as2&o=1&a=0465026567" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> <a href="#GEB-Back" style="font-size:75%;">go-back</a>
