@@ -10,8 +10,10 @@ One of the benefits of a digital book is that it should be straightforward for m
 
 <!-- more -->
 
-For ClueWeb, I discarded the use of Selenium since running a browser impedes the crawler. Selenium is a good fit for this problem (logging into kindle.amazon.com -> downloading a list o of book-specific-s-expressions -> download highlights for desired book/author)
-
+For ClueWeb, I discarded the use of Selenium since running a browser impedes the crawler. Selenium is a good fit for this problem which can be summarized as:
+<pre>
+(logging into kindle.amazon.com -> downloading a list o of book-specific-s-expressions -> download highlights for desired book/author)
+</pre>
 The following routines accomplish that. I dump both to file since my list of books read does not grow by the second so it is feasible to work with a stale file.
 
 <script src="http://gist-it.appspot.com/github/shriphani/clojure-kindle-highlights/blob/master/src/kindle_highlights/core.clj"></script>
