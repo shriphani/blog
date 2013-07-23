@@ -28,9 +28,9 @@ h2 {
     font-family: 'Helvetica Neue', serif;
 }
 
-h2 a { font-family:'Helvetica Neue'; color: #000000; font-size: 2em;}
+h2 a { font-family:'Helvetica Neue'; color: #000000; font-size: 2em; line-height: 1.05em;}
 
-h2.post-title { font-family:'Helvetica Neue'; color: #000000; font-size: 3.15em;}
+h2.post-title { font-family:'Helvetica Neue'; color: #000000; font-size: 3.15em; line-height: 1.05em;}
 
 div.container { color: #FFFFFF; }
 
