@@ -9,7 +9,7 @@ a {
 
 h1 {
     font-family: 'Avenir Black';
-    font-size: 3.5em;
+    font-size: 4.0em;
     margin-bottom: 0.25em;
     width: 900px;
 }
@@ -18,7 +18,6 @@ h1 a {
     font-family: 'Avenir Black', Avenir, Georgia, 'Open Sans', sans-serif;
     color: black;
 }
-
 
 #header {
     margin-top: 4em;
@@ -29,7 +28,9 @@ h2 {
     font-family: 'Helvetica Neue', serif;
 }
 
-h2 a { font-family:'Helvetica Neue'; color: #000000; }
+h2 a { font-family:'Helvetica Neue'; color: #000000; font-size: 2em;}
+
+h2.post-title { font-family:'Helvetica Neue'; color: #000000; font-size: 3.15em;}
 
 div.container { color: #FFFFFF; }
 
