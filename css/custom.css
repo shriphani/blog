@@ -72,6 +72,10 @@ html {
   width:48.717948717948715%;
 }
 
+li {
+  line-height: 150%;
+}
+
 .index-post {
   margin-bottom: 3em;
 }
