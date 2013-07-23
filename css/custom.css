@@ -36,6 +36,7 @@ div.container { color: #FFFFFF; }
 body {
     font-family: Palatino, Georgia, 'Crimson Text', Garamond, 'EB Garamond';
     font-size: 20px;
+    line-height: 150%;
 }
 
 code {
