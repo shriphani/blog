@@ -35,13 +35,7 @@ The data is indexed using row and column names (this is up to the application). 
 
 An example of an object in BigTable is:
 
-<pre>
-(com.cnn.www, contents, t1 - <CNN Homepage Content>)
-(com.cnn.www, anchor:src-page1, t1 - target_page_link)
-.
-.
-.
-</pre>
+<script src="https://gist.github.com/shriphani/6073308.js"></script>
 
 So, the row-key there was the domain (written out in the inverse format the RFC allows). The column-keys shown are the contents and an anchor (the keys are arbitrary and up to us).
 
@@ -98,4 +92,5 @@ Percolator is an implementation on top of BigTable so it is marginally slower th
 The paper also provided results using the TPC-E benchmark [2] - Percolator is <strong>3x</strong> better than the leader of the TPC-E board (although I am not sure if these numbers mean anything). This comes at the cost of a 30-fold overhead and this is a (potential) area of improvement.
 
 [1] <a href="http://research.google.com/pubs/pub36726.html">http://research.google.com/pubs/pub36726.html</a>
+
 [2] <a href="http://www.tpc.org/default.asp">http://www.tpc.org/default.asp</a>
