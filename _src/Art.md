@@ -11,7 +11,7 @@ A majority of the pictures feature Ferraris, Lamborghinis and Jaguars
 </div>
 
 <div style="text-align:center;">
-<a href="https://www.dropbox.com/sc/uc9czdyu0ih0jbn/Qjs8aAFlpI"><img style="margin-bottom:1em;" src="http://shriphani.com/pics/PVGP_Cover.jpeg" width="60%" /></a>
+<a href="https://www.dropbox.com/sc/i2pequ3scy9jgr9/ZDPVN_TRSE"><img style="margin-bottom:1em;" src="http://shriphani.com/pics/PVGP_Cover.jpeg" width="60%" /></a>
 </div>
 
 
