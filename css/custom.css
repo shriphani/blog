@@ -80,3 +80,8 @@ li {
 .index-post {
   margin-bottom: 3em;
 }
+
+table.tags-table {
+  font-size: 14px;
+  width: 460px;
+}
