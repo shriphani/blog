@@ -11,12 +11,12 @@ h1 {
     font-family: 'Avenir Black';
     font-size: 4.0em;
     margin-bottom: 0.25em;
-    width: 900px;
 }
 
 h1 a {
     font-family: 'Avenir Black', Avenir, Georgia, 'Open Sans', sans-serif;
     color: black;
+    line-height: 100%;
 }
 
 #header {
