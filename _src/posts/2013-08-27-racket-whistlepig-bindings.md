@@ -15,9 +15,9 @@ Whistlepig is implemented in less than 3000 lines of ANSI C. It comes
 with a very decent query language and returns documents (that match a
 query) sorted by their time-of-insertion (into the index).
 
-Whistlepig is hosted here. For using the FFI, we need a shared
+For using the FFI, we need a shared
 library. I had to modify the Makefile slightly to make it compile on
-OS X (you can download this from my fork here). I was able to build it
+OS X (you can download this from my fork [here](https://github.com/shriphani/whistlepig/tree/osx_compile)). I was able to build it
 on Linux with ease though. You can build the <code>.so</code>
 (<code>.dylib</code>) file using the following command:
 
