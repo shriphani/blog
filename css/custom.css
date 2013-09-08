@@ -14,8 +14,8 @@ h1 {
 }
 
 h1 a {
-    font-family: Lato, 'Avenir Black', Georgia, 'Open Sans', sans-serif;
-    color: black;
+    font-family: 'Avenir Black', Georgia, 'Open Sans', sans-serif;
+    color: #333;
     line-height: 100%;
 }
 
