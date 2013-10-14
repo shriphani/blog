@@ -117,5 +117,5 @@ script looks like so:
 (focus-window (second windows))
 ```
 
-And this is what happens when we run it (sorry about the 480px video):
+And this is what happens when we run it (sorry about the 480px video):<br />
 <iframe width="420" height="315" src="//www.youtube.com/embed/6kMmS5I7ISU" frameborder="0" allowfullscreen></iframe>
