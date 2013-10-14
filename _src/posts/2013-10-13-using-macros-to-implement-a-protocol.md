@@ -35,11 +35,11 @@ The zephyros API is asynchronous but I prefer having nothing to do
 with this callback business so routines that return a response are
 exposed as functions that return values.
 
-There is a general pattern to the routines we define. Send a message
-with the right arguments, wait for a response if there is any and
-return the response. So, we have this macro that takes a protocol
-string and a list of symbols corresponding to args and then defines a
-function.
+There is a general pattern to the routines defined: send a message
+with the right arguments, poll for a response if there is any and
+return the response (or perform the right state changes). So, we have
+this macro that takes a protocol string and a list of symbols
+corresponding to the args and then defines a function.
 
 ```racket
 (define-syntax (protocol->response-function stx)
@@ -83,3 +83,39 @@ The full API is documented [here](https://github.com/shriphani/zephyros/blob/mas
 
 Now, it is straightforward to use racket to implement custom window
 managers for OS X.
+
+Say we want to take the first two windows and then use them to cover
+50% of the screen each (while ignoring the rest of the windows), the
+script looks like so:
+
+```racket
+#lang racket
+
+(require (file "/Applications/Zephyros.app/Contents/Resources/libs/zephyros.rkt"))
+
+(define windows (take (visible-windows) 2))
+
+(define screen-dimensions (frame-without-dock-or-menu (main-screen)))
+
+(define screen-width (hash-ref screen-dimensions 'w))
+(define screen-height (hash-ref screen-dimensions 'h))
+
+(set-frame (first windows) (make-hash
+                            (list
+                             (cons 'x 0)
+                             (cons 'y 0)
+                             (cons 'h screen-height)
+                             (cons 'w (inexact->exact (/ screen-width 2))))))
+(focus-window (first windows))
+
+(set-frame (second windows) (make-hash
+                             (list
+                              (cons 'x (inexact->exact (/ screen-width 2)))
+                              (cons 'y 0)
+                              (cons 'h screen-height)
+                              (cons 'w (inexact->exact (/ screen-width 2))))))
+(focus-window (second windows))
+```
+
+And this is what happens when we run it (sorry about the 480px video):
+<iframe width="420" height="315" src="//www.youtube.com/embed/6kMmS5I7ISU" frameborder="0" allowfullscreen></iframe>
