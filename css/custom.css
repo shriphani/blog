@@ -37,6 +37,10 @@ h2 a { font-family:'Helvetica Neue', Georgia, serif; color: #000000; font-size: 
 
 h2.post-title { font-family:'Helvetica Neue', Georgia, serif; color: #000000; font-size: 3.15em; line-height: 1.05em;}
 
+h3 {
+    margin-top: 1.5em;
+}
+
 div.container { color: #FFFFFF; }
 
 body {
@@ -60,6 +64,10 @@ pre {
 ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
 
 p.date-and-tags { font-size: 0.75em; font-family: 'Helvetica Neue'; color: gray}
+
+p {
+    margin-top: 1.25em;
+}
 
 .centered {
     margin-left: 27.659574468085104%;
