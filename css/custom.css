@@ -1,4 +1,9 @@
 /* custom.css */
+.content-centered {
+ margin: 0 auto !important;
+ float: none !important;
+}
+
 html {
   height: 100%;
 }
@@ -85,3 +90,4 @@ table.tags-table {
   font-size: 14px;
   width: 460px;
 }
+
