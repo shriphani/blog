@@ -55,6 +55,8 @@ code {
 pre {
     white-space: pre;
     width: inherit;
+    font-family: Consolas, Monaco, Menlo;
+    font-size: 14px;
 }
 
 ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
