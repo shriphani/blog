@@ -7,21 +7,21 @@
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("LinLibertine_RI.woff") format('woff');
+    src: url("LinLibertine_RB.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Linux Libertine";
-    src: url("LinLibertine_RB.woff") format('woff');
-    font-weight: bold;
+    src: url("LinLibertine_RI.woff") format('woff');
     font-style: italic;
 }
 
 @font-face {
-    font-family: "myfont";
-    src: url("fonts/awesome-font-oblique.woff") format('woff');
+    font-family: "Linux Libertine";
+    src: url("LinLibertine_RBI.woff") format('woff');
     font-style: italic;
+    font-weight: bold;
 }
 
 .content-centered {
@@ -38,13 +38,13 @@ a {
 }
 
 h1 {
-    font-family: 'Avenir Black', Georgia;
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Georgia;
     font-size: 4.0em;
     margin-bottom: 0.25em;
 }
 
 h1 a {
-    font-family: 'Avenir Black', Georgia, 'Open Sans', sans-serif;
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Georgia, 'Open Sans', sans-serif;
     color: #333;
     line-height: 100%;
 }
@@ -58,9 +58,19 @@ h2 {
     font-family: 'Helvetica Neue', serif;
 }
 
-h2 a { font-family:'Helvetica Neue', Georgia, serif; color: #000000; font-size: 2em; line-height: 1.05em;}
+h2 a { 
+    font-family:'Helvetica Neue', Georgia, serif; 
+    color: #000000; 
+    font-size: 48pt; 
+    line-height: 1.05em;
+}
 
-h2.post-title { font-family:'Helvetica Neue', Georgia, serif; color: #000000; font-size: 3.15em; line-height: 1.05em;}
+h2.post-title { 
+    font-family:'Helvetica Neue', Georgia, serif; 
+    color: #000000; 
+    line-height: 1.05em;
+    font-size: 48pt;
+}
 
 h3 {
     margin-top: 1.5em;
@@ -69,7 +79,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: "Linux Libertine", Palatino, Georgia, 'Crimson Text', Garamond, 'EB Garamond';
+    font-family: constantia, "Hoefler Text", "Linux Libertine", Palatino, Georgia, 'Crimson Text', Garamond, 'EB Garamond';
     -moz-font-feature-settings: "ccmp", "onum", "pnum";
     -webkit-font-feature-settings: "ccmp", "onum", "pnum";
     font-size: 18pt;
@@ -92,10 +102,15 @@ pre {
 
 ul.navbar li { display: inline; list-style-type: none; margin-right:0.25em; }
 
-p.date-and-tags { font-size: 0.75em; font-family: 'Helvetica Neue'; color: gray}
+p.date-and-tags { 
+    font-size: 0.75em;
+    font-family: 'Helvetica', 'Arial';
+    color: gray;
+    text-indent: 1em;
+}
 
 p {
-    margin-top: 1.25em;
+    margin-top: 1em;
 }
 
 .centered {
