@@ -143,3 +143,7 @@ table.tags-table {
   width: 460px;
 }
 
+ul.pagination li {
+  display: inline-block;
+  border-sizing:border-box;
+}
