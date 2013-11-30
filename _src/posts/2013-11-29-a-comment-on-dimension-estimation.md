@@ -15,12 +15,22 @@ There is a trivial argument using the Hoeffding bound in Chris Burges'
 [paper] [] that suggests that if the features are all
 <code>i.i.d</code>, a majority of pairwise distances will end up
 clustered tightly around a mean which means that k-NN or
-Grassberger-Procaccia won't work well.
+Grassberger-Procaccia won't work well. I am going to repeat this
+argument here so I can remember it for later:
+
+Our vectors are of dimension $ d $ and the components are $ \pm1 $.
+Assuming all the components are $ iid $, the Hoeffding bound gives us:
+
+$$ P(|\|| x_{1} - x_{2} \||^{2} - 2d| > d\epsilon) = P(| x_{1} \cdot x_{2} | > d\epsilon/2) \le 2exp(-\frac{d\epsilon^2}{8})$$
+
+and this shows us that most pairwise distances will end up clustered
+very tightly around a mean and this means that a majority of pairs of
+points in the dataset will end up equidistant and thus a $ k-NN $
+classifier will fail.
 
 This also means that the correlation integral is a good way to
-determine if a k-NN classifier will work well. If the integral is too
-steep, then clearly you need to use a projection or a manifold based
-metric.
+determine if a k-NN classifier will work well. If the plot resembles a
+spike, the distance function needs to change.
 
 The correlation-integral is an immensely powerful tool and [here's] [2] an implementation
 
