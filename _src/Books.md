@@ -2,6 +2,7 @@ These are the books and papers (some unrelated to my research) I've recently rea
 
 * 2013
     * November
+        * [LogLog Counting of Large Cardinalities](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf) - Marianne Durand and Philippe Flajolet (paper)
         * [The Only Living Man With A Hole In His Head](http://www.amazon.com/gp/product/B007BV833C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007BV833C&linkCode=as2&tag=shriswebl-20) - Todd Pliss
     * August
         * [Genghis Khan and the Making of the Modern World](http://www.amazon.com/gp/product/B000FCK206/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FCK206&linkCode=as2&tag=shriswebl-20) - Jack Weatherford
