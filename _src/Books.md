@@ -18,7 +18,7 @@ These are the books I've recently read:
     * December
         * [Ender's Game (The Ender Quintet)](http://www.amazon.com/gp/product/B003G4W49C/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003G4W49C) - Orson Scott Card
     * October
-        * [Old Man's War] (http://www.amazon.com/gp/product/B000SEIK2S/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000SEIK2S&linkCode=as2&tag=shriswebl-20) - Joe Scalzi
+        * [Old Man's War](http://www.amazon.com/gp/product/B000SEIK2S/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000SEIK2S&linkCode=as2&tag=shriswebl-20) - Joe Scalzi
     * September
         * [Very Bad Poetry](http://www.amazon.com/gp/product/0679776222/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0679776222&linkCode=as2&tag=shriswebl-20) - Ross Petras, Kathryn Petras
         * Time Machine - H.G. Wells
