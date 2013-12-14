@@ -173,4 +173,4 @@ This is one of those extremely sweet papers where the idea (minus the
 details) fits on a business card and the resulting algorithm has
 immense practical value.
 
-
+The full source code is available in [this github repository](https://github.com/shriphani/probabilistic-counting).
