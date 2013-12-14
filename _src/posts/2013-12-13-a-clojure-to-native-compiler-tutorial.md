@@ -1,6 +1,6 @@
     Title: A Clojure to Native Compiler Tutorial
     Date: 2013-12-13T17:15:05
-    Tags: clojure, scheme, compiler, assembly, tutorial
+    Tags: DRAFT, clojure, scheme, compiler, assembly, tutorial
 
 I spent some time recently working through a
 [tutorial](http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf) by Abdulaziz
@@ -22,4 +22,5 @@ If you want an education, study the dragon book.
 
 <!-- more -->
 
-First, we need to
+A large part of the tutorial uses a test suite and it is hard to
+proceed through the tutorial without having one by your side (IMO).
