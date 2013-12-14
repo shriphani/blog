@@ -1,4 +1,4 @@
-These are the books I've recently read:
+These are the books and papers (some unrelated to my research) I've recently read and found interesting:
 
 * 2013
     * November
