@@ -9,6 +9,8 @@ contained in the corpus. This was the perfect opportunity to whip up a
 script that implemented Durande et. al's
 [log-log paper](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf).
 
+<!-- more -->
+
 The algorithm operates on a stream and produces an estimate for the
 cardinality of the input stream. Here's the algorithm itself:
 
