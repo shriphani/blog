@@ -163,7 +163,7 @@ if __name__ == '__main__':
 
 ```
 
-Next, let us deploy this on a dataset. I obtained a video from a surveillance camera (a few datasets are available [at this webpage](http://perception.i2r.a-star.edu.sg/bk_model/bk_index.html). I will use the Curtain dataset from that page).
+Next, let us deploy this on a dataset. I obtained a video from a surveillance camera (a few datasets are available [at this webpage](http://perception.i2r.a-star.edu.sg/bk_model/bk_index.html). I will use the Escalator dataset from that page).
 
 The following script builds a <code>numpy</code> matrix from the bitmap image sequence:
 
