@@ -1,6 +1,6 @@
     Title: Robust Principal Component Pursuit - Background Matrix Recovery
     Date: 2013-12-18T05:05:31
-    Tags: matrix-decomposition, linear-algebra, incanter
+    Tags: matrix-decomposition, linear-algebra, python, robust-pcp, machine-learning
 
 I recently spent some time working on a simple linear algebra problem - decompose a matrix $ M $ into a [low-rank](http://en.wikipedia.org/wiki/Rank_(linear_algebra)) component $ L $ and a sparse component $ S $. The algorithm I used was very trivial to implement (and parallelize using map-reduce).
 
