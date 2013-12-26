@@ -1,6 +1,6 @@
     Title: Probabilistic Counting
     Date: 2013-12-13T23:12:33
-    Tags: loglog, flajolet, probabilistic-counting
+    Tags: loglog, flajolet, probabilistic-counting, clojure
 
 I recently got my hands on the common-crawl URL dataset from
 [here](https://archive.org/details/2013_common_crawl_index_urls) and

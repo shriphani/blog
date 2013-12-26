@@ -1,6 +1,6 @@
     Title: Tree Edit Distance in Clojure
     Date: 2013-12-03T00:58:47
-    Tags: research, dom, trees, edit-distance, dynamic-programming
+    Tags: research, dom, trees, edit-distance, dynamic-programming, clojure
 
 I had to throw together an implementation of tree-edit distance for
 clustering web-pages based on their structure. It performs reasonably
