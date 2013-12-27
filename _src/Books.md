@@ -1,6 +1,8 @@
 These are the books and papers (some unrelated to my research) I've recently read and found interesting:
 
 * 2013
+    * December
+        * [Pursuit of Low-dimensional Structures in High-dimensional Data](https://vimeo.com/80319158) - Yi Ma (video)
     * November
         * [LogLog Counting of Large Cardinalities](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf) - Marianne Durand and Philippe Flajolet (paper)
         * [The Only Living Man With A Hole In His Head](http://www.amazon.com/gp/product/B007BV833C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007BV833C&linkCode=as2&tag=shriswebl-20) - Todd Pliss
