@@ -18,8 +18,8 @@ implemented. And then I saw this definition:
     (l 2))
 ```
 
-The lambda calculus and the material in the little schemer kept in
-the field and assured me that there would never be a dearth of aha!
+The lambda calculus and the material in the little schemer kept me in
+the field (computer-science i.e.) and assured me that there would never be a dearth of aha!
 moments in my education.
 
 Good educators can deliver such aha! moments in every single lecture.
