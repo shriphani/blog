@@ -1,5 +1,9 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
+* 2014
+    * January
+        * [The Little Schemer - 4th Edition](http://www.amazon.com/gp/product/0262560992/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262560992&linkCode=as2&tag=shriswebl-20) - Daniel P. Friedman, Matthias Felleisen
+
 * 2013
     * December
         * [Pursuit of Low-dimensional Structures in High-dimensional Data](https://vimeo.com/80319158) - Yi Ma (video)
