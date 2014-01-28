@@ -1,3 +1,7 @@
+* "All theory is against the freedom of the will; all experience is for it."
+
+  Samuel Johnson (Life of Johnson)
+
 * "What we are is God's gift to us. What we become is out gift to God"
 
   Anonymous (Found in Chapter 1 of "Love, Life and Elephants - An African Love Story" by Daphne Sheldrick)
