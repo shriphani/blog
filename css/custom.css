@@ -1,6 +1,6 @@
-/* custom.css */
+B/* custom.css */
 
-@font-face {
+@0;95;cfont-face {
     font-family: "Linux Libertine";
     src: url("LinLibertine_R.woff") format('woff');
 }
@@ -63,6 +63,7 @@ h2 a {
     color: #000000; 
     font-size: 48pt; 
     line-height: 1.05em;
+    margin-top: 10px;
 }
 
 h2.post-title { 
@@ -146,4 +147,8 @@ table.tags-table {
 ul.pagination li {
   display: inline-block;
   border-sizing:border-box;
+}
+
+article {
+  padding-top:40px;
 }
