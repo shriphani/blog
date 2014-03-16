@@ -3,9 +3,10 @@
     Tags: java, heritrix, crawling, web-crawling
 
 This is a post I wrote to teach myself about Heritrix and modifying
-it. There are solid motivations for modifying web-crawlers since pure
-BFS doesn't always cut it. In this post, I will modify two routines
-that are central to web-crawling - extracting URLs from a webpage.
+it. There are solid motivations for modifying web-crawlers (say we know
+how to beat a simple BFS for some specific website). In this post,
+I will modify a routine that is central to web-crawling - extracting
+URLs from a webpage.
 
 <!-- more -->
 
