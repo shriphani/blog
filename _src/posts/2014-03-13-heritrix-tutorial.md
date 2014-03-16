@@ -10,8 +10,6 @@ URLs from a webpage.
 
 <!-- more -->
 
-## Extractor
-
 First, I am going to put together a simple extractor in Heritrix. This
 extractor uses an XPath (I used a very trivial XPath for the sake of
 this example). I use the HtmlCleaner library for parsing the supplied
