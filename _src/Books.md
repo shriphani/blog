@@ -1,6 +1,8 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
 * 2014
+    * February
+        * [The TW-IDF retrieval model](http://www.lix.polytechnique.fr/~rousseau/papers/rousseau-cikm2013.pdf) - Francois Rousseau, Michalis Vazirgiannis
     * January
         * [The Little Schemer - 4th Edition](http://www.amazon.com/gp/product/0262560992/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262560992&linkCode=as2&tag=shriswebl-20) - Daniel P. Friedman, Matthias Felleisen
 
