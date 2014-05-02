@@ -53,9 +53,6 @@ And that is it!
 ([this blog](http://www.tomkleinpeter.com/2008/03/17/programmers-toolbox-part-3-consistent-hashing/)
 post has a few good graphics illustrating this algorithm).
 
-In clojure, the basic consistent hashing algorithm can be implemented
-easily: 
-
 Now, I wanted to perform a simulation of this algorithm in clojure to
 see empirically how good the performance is. I basically simulated 100
 assignments. This experiment essentially can be thought of as: 100
