@@ -1,5 +1,5 @@
     Title: Consistent Hashing in Clojure
-    Date: 2014-05-1T19:31:35
+    Date: 2014-05-01T19:31:35
     Tags: clojure, consistent-hashing, hotspots
 
 I wrote this post to teach myself consistent hashing - a simple hash
