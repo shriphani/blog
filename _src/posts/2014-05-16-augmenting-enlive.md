@@ -29,3 +29,6 @@ And as a result the <code>a</code> tag is not picked up:
 
 The options you can pass mirror those of [HtmlCleaner](http://htmlcleaner.sourceforge.net/parameters.php). Full docs
 available in [this github repo](https://github.com/shriphani/enlive-helper).
+
+Also, the code is something I threw together from my research so it is
+released under [Matt Might's CRAPL license](http://matt.might.net/articles/crapl/CRAPL-LICENSE.txt).
