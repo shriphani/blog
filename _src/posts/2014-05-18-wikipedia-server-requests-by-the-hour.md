@@ -9,4 +9,3 @@ of the server requests made by the hour on 19th of September, 2007.
 src="http://shriphani.com/visualizations/wikipedia_trace/">
 </iframe>
 
-<!-- more -->
