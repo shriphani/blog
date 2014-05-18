@@ -6,7 +6,7 @@ I found this dataset of server requests to Wikipedia. This is a plot
 of the server requests made by the hour on 19th of September, 2007.
 
 <iframe frameborder="0" height="700" width="900" scrolling="no"
-src="/visualizations/wikipedia_trace/">
+src="http://shriphani.com/visualizations/wikipedia_trace/">
 </iframe>
 
 <!-- more -->
