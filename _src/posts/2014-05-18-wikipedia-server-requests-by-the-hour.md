@@ -1,6 +1,6 @@
     Title: Wikipedia Server Requests By the Hour
     Date: 2014-05-18T00:38:54
-    Tags: d3, visualizations, wikipedia
+    Tags: d3, visualizations, wikipedia, visualization
 
 I found [this dataset](http://www.wikibench.eu/?page_id=60) of server requests to Wikipedia. This is a plot
 of the server requests made by the hour on 19th of September, 2007.
