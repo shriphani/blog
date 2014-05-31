@@ -1,9 +1,11 @@
-<article>
+<article itemscope="" itemtype="http://schema.org/BlogPosting">
   <header>
-    <h2 class='post-title'>@|title|</h2>
+    <h2 class='post-title' itemprop="name headline">@|title|</h2>
     <div>@|date+tags|</div>
   </header>
-  @|content|
+  <div itemprop="articleBody">
+    @|content|
+  </div>
   <footer style='margin-top:2.5em;'>
     @disqus-comments["sp-blog"]
     @older/newer-links[older-uri older-title newer-uri newer-title]
