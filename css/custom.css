@@ -52,7 +52,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: "adobe-garamond-pro", "pt-serif-caption", constantia, 'Gentium Book Basic', sans-serif;
+    font-family: constantia, "adobe-garamond-pro", 'Gentium Book Basic', sans-serif;
     -moz-font-feature-settings: "ccmp", "onum", "pnum";
     -webkit-font-feature-settings: "ccmp", "onum", "pnum";
     font-size: 18pt;
