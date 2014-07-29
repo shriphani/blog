@@ -1,6 +1,8 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
 * 2014
+    * July
+        * [American Legends: The Life of Howard Hughes](http://www.amazon.com/gp/product/B00KRO8T70/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KRO8T70&linkCode=as2&tag=shriswebl-20&linkId=RHTMG4HILDHXMTPU) - Charles Rivers Editors (publisher).
     * February
         * [The TW-IDF retrieval model](http://www.lix.polytechnique.fr/~rousseau/papers/rousseau-cikm2013.pdf) - Francois Rousseau, Michalis Vazirgiannis
     * January
