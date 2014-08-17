@@ -14,6 +14,10 @@ a {
     color: #F90;
 }
 
+h1 {
+    font-family: Merriweather;
+}
+
 h1 a {
     color: #2B2625;
     line-height: 100%;
@@ -29,6 +33,7 @@ h1 a {
 h2 {
     color: #2B2625;
     text-align: center;
+    font-family: Merriweather;
 }
 
 h2 a { 
@@ -47,12 +52,13 @@ h2.post-title {
 h3 {
     margin-top: 1.5em;
     color: #2B2625;
+    font-family: Merriweather;
 }
 
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: 'Merriweather', constantia, "adobe-garamond-pro", 'Gentium Book Basic', serif;
+    font-family: 'Gentium Basic', constantia, "adobe-garamond-pro", 'Gentium Book Basic', serif;
     -moz-font-feature-settings: "ccmp", "onum", "pnum";
     -webkit-font-feature-settings: "ccmp", "onum", "pnum";
     font-size: 16pt;
