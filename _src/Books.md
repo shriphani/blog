@@ -1,6 +1,8 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
 * 2014
+    * August
+        * [How to Write an Opening Sentence](http://author-zone.com/write-opening-sentence/) - Blog post by  Kas Thomas
     * July
         * [American Legends: The Life of Howard Hughes](http://www.amazon.com/gp/product/B00KRO8T70/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KRO8T70&linkCode=as2&tag=shriswebl-20&linkId=RHTMG4HILDHXMTPU) - Charles Rivers Editors (publisher).
     * February
