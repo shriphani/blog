@@ -59,10 +59,11 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: constantia, Georgia, serif;
-    font-size: 16pt;
-    line-height: 1.3;
-    color: #52606b;
+    font-family: Georgia, serif;
+    font-size: 1.10em;
+    line-height: 1.571em;
+    color: #111111;
+    
 }
 
 code {
