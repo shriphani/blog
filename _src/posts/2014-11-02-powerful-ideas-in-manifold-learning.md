@@ -16,9 +16,9 @@ The MDS strategy is:
 * We have a matrix $ D $ for distances between points in the data.
   This matrix is _symmetric_.
 * We express distances as dot-products (using a proof from Schonberg).
-  This means that $ D $ is expressed as $ X^T X $. (Observe that $ X^T
-  X $ is a matrix of dot-products).
-* Once we have $ X^T X $, dimension reduction is trivial. We know
+  This means that $ D $ is expressed as $ X X^T $. (Observe that $
+  X X^T $ is a matrix of dot-products).
+* Once we have $ X X^T $, dimension reduction is trivial. We know
   from
   [**PCA**](http://en.wikipedia.org/wiki/Principal_component_analysis)
   that we can run an eigendecomposition on this matrix and  retrieve a
