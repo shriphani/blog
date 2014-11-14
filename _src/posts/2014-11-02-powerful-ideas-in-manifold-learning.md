@@ -18,11 +18,10 @@ The MDS strategy is:
 * We express distances as dot-products (using a proof from Schonberg).
   This means that $ D $ is expressed as $ X^T X $. (Observe that $
   X^T X $ is a matrix of dot-products).
-* Once we have $ X^T X $, dimension reduction is trivial. We know
-  from
-  [**PCA**](http://en.wikipedia.org/wiki/Principal_component_analysis)
-  that we can run an eigendecomposition on this matrix and  retrieve a
-  low-dimension embedding by discarding eigenvalues (eigenvectors).
+* Once we have $ X^T X $, dimension reduction is trivial. Running an
+  eigendecomposition on this matrix will produced centered
+  coordinates. The low-dimension embedding is recovered by discarding
+  eigenvalues (eigenvectors).
   
 
 Thus, assuming that we work with _euclidean distances_ between points,
