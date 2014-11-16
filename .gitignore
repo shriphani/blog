@@ -4,3 +4,4 @@ feeds/
 *.html
 *~
 sitemap.txt
+.frog/build
