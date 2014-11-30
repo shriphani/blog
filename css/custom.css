@@ -4,6 +4,13 @@
 .content-centered {
  margin: 0 auto !important;
  float: none !important;
+ border-radius: 9px ;
+  -moz-border-radius: 9px ;
+  -o-box-shadow: 0 5px 5px #333333 ;
+  -webkit-box-shadow: 0 5px 5px #333333 ;
+  -moz-box-shadow: 0 5px 5px #333333 ;
+  box-shadow: 0 5px 5px #333333 ;
+  background-color: white;
 }
 
 html {
@@ -63,7 +70,7 @@ body {
     font-size: 1.10em;
     line-height: 1.571em;
     color: #111111;
-    
+    background-color: rgb(221, 221, 221)
 }
 
 code {
