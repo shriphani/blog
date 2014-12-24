@@ -1,5 +1,6 @@
 
-I am a PhD candidate at Carnegie Mellon University. I am advised by Jamie Callan.
-I was an undergraduate in CS at Purdue University and have completed internships at Microsoft and Yelp.
+Researcher @ <a href="https://www.kimonolabs.com/">Kimono Labs</a>.
 
-I work primarily in information retrieval. I am currently building the ClueWeb12++ dataset. You can track our progress [here](http://boston.lti.cs.cmu.edu/spalakod/posts/).
+Previously, a PhD student <a href="https://twitter.com/scsatcmu">@SCS@CMU</a> (dropped out in Winter-2014), intern <a href="https://twitter.com/Yelp">@Yelp</a>, and <a href="https://twitter.com/Microsoft">@Microsoft</a>.
+
+I have worked on Search Engines, AI, and Data mining.
