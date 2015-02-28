@@ -5,10 +5,7 @@
 
 In the past few blog posts, I covered some details of popular
 dimension-reduction techniques and showed some common themes. In this
-post, I will collect all these materials and demonstrate the motivation
-for each of the techniques I covered. Clojure code based on
-<code>core.matrix</code> is provided for all the algorithms covered
-(github repo shared at the end of the blog post).
+post, I will collect all these materials and tie them together.
 
 <!-- more -->
 
@@ -53,8 +50,9 @@ dimension of a dataset:
 
 * $ n $: The number of pairs of points in our data.
 * $ r $: The radius of a sphere centered around the observer.
+* $ p $: The number of pairs of points in a sphere of radius $ r $.
 
-The estimate of the fractal dimension is given by the slope of $ \log(n) $
+The estimate of the fractal dimension is given by the slope of $ \log(p) $
 vs $ \log(r) $.
 
 For the curve in the example above, this value is some real number between 1
@@ -67,8 +65,11 @@ Working with intuitions we developed in the first section, we can
 develop a greedy algorithm:
 
 * Estimate the fractal-dimension of the dataset.
-* Start dropping dimensions from the dataset until the remaining number
-  of dimensions are close to the estimated fractal-dimension.
+* Choose a dimension (column) to drop, drop it and recompute the
+  fractal-dimension. If the dimension doesn't change too much (stays
+  within a certain tolerance), consider this dimension dropped.
+* Repeat until no more dimensions can be dropped without significantly
+  altering the fractal-dimension.
 
 This is the Grassberger-Procaccia algorithm.
 
@@ -126,3 +127,9 @@ in a higher-dimension.
 
 Interestingly, MDS and Isomap are all variants of the Kernel PCA - a
 topic explored in [this blog post](/2015/01/20/the-kernel-pca/).
+
+### Up Next
+
+In future blog posts, I will discuss scaling issues with spectral
+algorithms, insights that can be transferred to other domains and so
+on.
