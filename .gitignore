@@ -5,3 +5,6 @@ feeds/
 *~
 sitemap.txt
 .frog/build
+*.so
+racket-whistlepig/
+sistine_chapel.png
