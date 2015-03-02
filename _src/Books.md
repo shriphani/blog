@@ -1,5 +1,9 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
+* 2015
+    * January / February
+        * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
+
 * 2014
     * August
         * [How to Write an Opening Sentence](http://author-zone.com/write-opening-sentence/) - Blog post by  Kas Thomas
