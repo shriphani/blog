@@ -1,5 +1,5 @@
     Title: Leveraging a scalable web-crawler in clojure
-    Date: 2015-03-11T05:29:39
+    Date: 2015-03-12T05:29:39
     Tags: clojure, web-crawling, heritrix, java, scalable, www, crawler
 
 [Nutch](http://nutch.apache.org/) and
