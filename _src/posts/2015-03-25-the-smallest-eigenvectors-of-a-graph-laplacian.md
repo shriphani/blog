@@ -210,7 +210,7 @@ number of edges from one partition to the other is given by:
 <div>
 
 $$
-\sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_i)}{4}
+\sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_j)^2}{4}
 $$
 
 </div>
@@ -234,7 +234,7 @@ This can be expressed as the following optimization function:
 Minimize
 <div>
 $$ 
-\sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_i)}{4} 
+\sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_j)^2}{4} 
 $$
 </div>
 with the constraint 
