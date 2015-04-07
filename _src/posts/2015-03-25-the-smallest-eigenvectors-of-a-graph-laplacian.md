@@ -1,6 +1,8 @@
     Title: The Smallest Eigenvectors of a Graph Laplacian
-    Date: 2015-03-25T23:07:43
-    Tags: machine-learning, spectral-learning, eignevectors
+    Date: 2015-04-06T22:54:43
+    Tags: machine-learning, spectral-learning, eigenvectors, spectral-analysis,
+    clustering, partitioning, graph-partitioning, spectral-clustering, fiedler,
+    fiedler-vector, dimension-reduction
 
 Given a graph $ G = (V, E) $, its adjacency matrix $ A $ contains an entry at $
 A_{ij} $ if vertices $ i $ and $ j $ have an edge between them. The degree
@@ -61,11 +63,11 @@ A blueprint for the proof looks like this (detailed proof provided later):
   
   A toy example illustrates this nicely.
   
-  In this example, we have a graph with 5 vertices. Say the graph is connected.
+  In this example, we have a graph with 6 vertices. Say the graph is connected.
   
-  Let us see what the value of $ \lambda_0 $ is:
+  Let us see what the value of the desired eigenvector is $ < 1, 1, 1, 1, 1, 1 > $.
   
-  For 2 connected components, $ \lambda_0 $ is:
+  For 2 connected components, this value possibly is $ < 1, 1, 1, 0, 0, 0 > and  < 0, 0, 0, 1, 1, 1 >  $
   
   And so on.
   
@@ -229,8 +231,18 @@ other while achieving a reasonable size for each partition.
 
 This can be expressed as the following optimization function:
 
-Minimize $ \sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_i)}{4} $ with the
-constraint $ \sum_{i} x_i = 0 $.
+Minimize
+<div>
+$$ 
+\sum_{i=1, j=i}^{i=n, j=n} \frac{(x_i - x_i)}{4} 
+$$
+</div>
+with the constraint 
+<div>
+$$ 
+\sum_{i} x_i = 0 
+$$ 
+</div>.
 
 This unfortunately has a trivial solution. Set all $ x_i $ to 0.
 
@@ -314,11 +326,14 @@ necessarily $ 1 $ and $ -1 $.
 
 A whole host of tricks can be applied to convert the entries in the eigenvector
 to $ +1 $ and $ -1 $:
-
-* $ sgn(v_{1}_{i}) = +1 $ or $ -1 $. i.e. vertex $ i $ gets assigned a value $ x_i
-  $ = the sign of the $ i^{th} $ component of the eigenvector $ v_1 $.
-* $ x_i = +1 $ if $ v_1_{i} > m $, $ -1 $ otherwise. Here $ m $ is the median of
-  all the eigenvalue components (or the mean or zero or whatever).
+<div>
+<ul> 
+<li> $ sgn(v_{1_{i}}) $ i.e. vertex $ i $ gets assigned a value $ x_i  = $ the
+sign of the $ i^{th} $ component of the eigenvector $ v_1 $. </li>
+<li> $ x_i = +1 $ if $ v_{1_i} > m $, $ -1 $ otherwise. Here $ m $ is the median of
+  all the eigenvalue components (or the mean or zero or whatever). </li>
+</ul>
+</div>
   
 And this is how the Fiedler vector helps with graph partitioning.
 
@@ -333,8 +348,8 @@ von Luxburg - A self-contained and elaborate tutorial on spectral clustering.
 2. [Algebraic Connectivity of Graphs](/docs/Algebraic_Connectivity.pdf) -
 Miroslav Fiedler - A landmark paper on the properties of the second smallest
 eigenvalue and its associated eigenvector
-3. [Partitioning Sparse Matrices with Eigenvectors of Graphs](/docs/Pothen89Partition.pdf)
-- Alex Pothen, Horst Simon, Kang-Pu Paul Liu - An algorithm to leverage the
+3. [Partitioning Sparse Matrices with Eigenvectors of Graphs](/docs/Pothen89Partition.pdf) -
+Alex Pothen, Horst Simon, Kang-Pu Paul Liu - An algorithm to leverage the
   Fiedler vector for graph Partitioning
 
 
