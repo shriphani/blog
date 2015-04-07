@@ -1,4 +1,4 @@
-    Title: The Smallest Eigenvectors of a Graph Laplacian
+    Title: The Smallest Eigenvalues of a Graph Laplacian
     Date: 2015-04-06T22:54:43
     Tags: machine-learning, spectral-learning, eigenvectors, spectral-analysis,
     clustering, partitioning, graph-partitioning, spectral-clustering, fiedler,
