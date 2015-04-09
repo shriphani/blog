@@ -44,14 +44,14 @@ h2 {
     font-family: Merriweather;
 }
 
-h2 a { 
-    color: #2B2625; 
-    font-size: 35pt; 
+h2 a {
+    color: #2B2625;
+    font-size: 35pt;
     line-height: 1.05em;
     margin-top: 2px;
 }
 
-h2.post-title { 
+h2.post-title {
     line-height: 1.05em;
     font-size: 35pt;
     color: #2B2625;
@@ -66,7 +66,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Georgia, serif;
+    font-family: Constantia, 'hoefler text', Georgia, serif;
     font-size: 1.10em;
     line-height: 1.571em;
     color: #111111;
