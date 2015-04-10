@@ -1,5 +1,10 @@
 # Professional
 
+<a href="https://www.flickr.com/photos/11424398@N08/16895255497"
+title="Joshua Tree by Shriphani Palakodety, on Flickr"><img
+src="https://farm8.staticflickr.com/7651/16895255497_783194dda9_n.jpg"
+width="140" height="187" alt="Joshua Tree" style="float: right; border: 1px solid #021a40;" /></a>
+
 Engineer at [Onu Technology](http://www.onu.io)
 
 Previously, researcher @ <a href="https://www.kimonolabs.com/">Kimono
@@ -17,15 +22,6 @@ easy-to-follow corpus of notes and documents. I primarily write about
 machine-learning and clojure. Most blog posts tend to combine two or
 more seminal works and explore common themes.
 
-I am drawn to quirky choices. In December 2014, I embarked on a 51 hour
-train trip from Pittsburgh, PA to San Francisco, CA on the California
-Zephyr.
-
-I wholeheartedly recommend traveling across the country by train.
-
-I also hiked the Joshua Tree National Park in a white dress shirt.
-
-I do not recommend this.
 
 # Social Media
 
