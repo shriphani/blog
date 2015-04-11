@@ -5,12 +5,13 @@
  margin: 0 auto !important;
  float: none !important;
  border-radius: 9px ;
-  -moz-border-radius: 9px ;
-  -o-box-shadow: 0 5px 5px #333333 ;
-  -webkit-box-shadow: 0 5px 5px #333333 ;
-  -moz-box-shadow: 0 5px 5px #333333 ;
-  box-shadow: 0 5px 5px #333333 ;
-  background-color: white;
+ -moz-border-radius: 9px ;
+ -o-box-shadow: 0 5px 5px #333333 ;
+ -webkit-box-shadow: 0 5px 5px #333333 ;
+ -moz-box-shadow: 0 5px 5px #333333 ;
+ box-shadow: 0 5px 5px #333333 ;
+ background-color: white;
+ min-width: 540px;
 }
 
 html {
