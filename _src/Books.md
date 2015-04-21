@@ -1,6 +1,8 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
 * 2015
+    * April
+        * [Before I go](http://stanmed.stanford.edu/2015spring/before-i-go.html) - Paul Kalanithi
     * January / February
         * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
 
