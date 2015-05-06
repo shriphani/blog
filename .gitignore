@@ -8,3 +8,4 @@ sitemap.txt
 *.so
 racket-whistlepig/
 sistine_chapel.png
+*.DS_Store
