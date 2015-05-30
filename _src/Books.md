@@ -1,56 +1,33 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
-* 2015
-    * April
-        * [Before I go](http://stanmed.stanford.edu/2015spring/before-i-go.html) - Paul Kalanithi
-    * January / February
-        * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
-
-* 2014
-    * August
-        * [How to Write an Opening Sentence](http://author-zone.com/write-opening-sentence/) - Blog post by  Kas Thomas
-    * July
-        * [American Legends: The Life of Howard Hughes](http://www.amazon.com/gp/product/B00KRO8T70/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KRO8T70&linkCode=as2&tag=shriswebl-20&linkId=RHTMG4HILDHXMTPU) - Charles Rivers Editors (publisher).
-    * February
-        * [The TW-IDF retrieval model](http://www.lix.polytechnique.fr/~rousseau/papers/rousseau-cikm2013.pdf) - Francois Rousseau, Michalis Vazirgiannis
-    * January
-        * [The Little Schemer - 4th Edition](http://www.amazon.com/gp/product/0262560992/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262560992&linkCode=as2&tag=shriswebl-20) - Daniel P. Friedman, Matthias Felleisen
-
-* 2013
-    * December
-        * [Pursuit of Low-dimensional Structures in High-dimensional Data](https://vimeo.com/80319158) - Yi Ma (video)
-    * November
-        * [LogLog Counting of Large Cardinalities](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf) - Marianne Durand and Philippe Flajolet (paper)
-        * [The Only Living Man With A Hole In His Head](http://www.amazon.com/gp/product/B007BV833C/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007BV833C&linkCode=as2&tag=shriswebl-20) - Todd Pliss
-    * August
-        * [Genghis Khan and the Making of the Modern World](http://www.amazon.com/gp/product/B000FCK206/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FCK206&linkCode=as2&tag=shriswebl-20) - Jack Weatherford
-    * June
-        * [Genghis: Bones of the Hills: A Novel](http://www.amazon.com/gp/product/B001NLL9IM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001NLL9IM&linkCode=as2&tag=shriswebl-20) - Conn Iggulden
-        * [Genghis: Lords of the Bow: A Novel](http://www.amazon.com/gp/product/B000WJQUYO/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000WJQUYO&linkCode=as2&tag=shriswebl-20) - Conn Iggulden
-    * January
-        * [The Great Gatsby](http://www.amazon.com/gp/product/B000FC0PDA/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000FC0PDA) - Scott Fitzgerald
-        * [Watchmen](http://www.amazon.com/gp/product/B005CRQ2IU/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B005CRQ2IU) - Alan Moore
-        * [Mossad: The Greatest Missions of the Israeli Secret Service](http://www.amazon.com/gp/product/B007HBLPO0/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B007HBLPO0) - Michael Bar-Zohar & Nissim Mishal
-        * [Mother Night: A Novel](http://www.amazon.com/gp/product/B002KJA97I/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002KJA97I) - Kurt Vonnegut
-	
-* 2012
-    * December
-        * [Ender's Game (The Ender Quintet)](http://www.amazon.com/gp/product/B003G4W49C/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003G4W49C) - Orson Scott Card
-    * October
-        * [Old Man's War](http://www.amazon.com/gp/product/B000SEIK2S/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000SEIK2S&linkCode=as2&tag=shriswebl-20) - Joe Scalzi
-    * September
-        * [Very Bad Poetry](http://www.amazon.com/gp/product/0679776222/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0679776222&linkCode=as2&tag=shriswebl-20) - Ross Petras, Kathryn Petras
-        * Time Machine - H.G. Wells
-    * July
-        * [Amphitryon](http://www.amazon.com/gp/product/0156002116/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0156002116&linkCode=as2&tag=shriswebl-20), by Moliere
-    * June
-        * [Genghis: Birth of an Empire](http://www.amazon.com/gp/product/B000QBYERS/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B000QBYERS) - Conn Iggulden
-    * May
-        * [Breakfast of Champions (Kurt Vonnegut Series)](http://www.amazon.com/gp/product/B003XRELEI/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003XRELEI) - Kurt Vonnegut
-    * April
-        * [Genghis Khan, Makers of History Series](http://www.amazon.com/gp/product/B004UJOU6C/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004UJOU6C) - Jacob Abbott
-        * [Slaughterhouse-Five (Kurt Vonnegut Series)](http://www.amazon.com/gp/product/B003XVYLDU/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003XVYLDU) - Kurt Vonnegut
-        * [The Metamorphosis and Other Stories (Oxford World's Classics)](http://www.amazon.com/gp/product/B003HD2L18/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003HD2L18) -- Franz Kafka
-    * March
-        * [The Man Who Mistook His Wife for a Hat: and other Clinical Tales](http://www.amazon.com/gp/product/B003MQNI6W/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003MQNI6W) - Oliver Sacks
-        * [Le Bourgeois Gentilhomme](http://www.amazon.com/gp/product/B004UJ7VG8/ref=as_li_ss_tl?ie=UTF8&tag=shriswebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004UJ7VG8) - Molière
+* Academic Papers:
+    * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
+    * [LogLog Counting of Large Cardinalities](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf) - Marianne Durand and Philippe Flajolet (paper)
+* Textbooks:
+    * [The Little Schemer - 4th Edition](http://www.amazon.com/gp/product/0262560992/) - Daniel P. Friedman, Matthias Felleisen
+* Presentations:
+    * [Pursuit of Low-dimensional Structures in High-dimensional Data](https://vimeo.com/80319158) - Yi Ma (video)
+* Fiction:
+    * [Before I go](http://stanmed.stanford.edu/2015spring/before-i-go.html) - Paul Kalanithi
+    * [American Legends: The Life of Howard Hughes](http://www.amazon.com/gp/product/B00KRO8T70/) - Charles Rivers Editors (publisher).
+    * [Genghis Khan and the Making of the Modern World](http://www.amazon.com/gp/product/B000FCK206/) - Jack Weatherford
+    * [Genghis: Bones of the Hills: A Novel](http://www.amazon.com/gp/product/B001NLL9IM/) - Conn Iggulden
+    * [Genghis: Lords of the Bow: A Novel](http://www.amazon.com/gp/product/B000WJQUYO/) - Conn Iggulden
+    * [The Great Gatsby](http://www.amazon.com/gp/product/B000FC0PDA/) - Scott Fitzgerald
+    * [Watchmen](http://www.amazon.com/gp/product/B005CRQ2IU/) - Alan Moore
+    * [Mother Night: A Novel](http://www.amazon.com/gp/product/B002KJA97I/) - Kurt Vonnegut
+    * [Ender's Game (The Ender Quintet)](http://www.amazon.com/gp/product/B003G4W49C/) - Orson Scott Card
+    * [Old Man's War](http://www.amazon.com/gp/product/B000SEIK2S/) - Joe Scalzi
+    * [Amphitryon](http://www.amazon.com/gp/product/0156002116/), by Moliere
+    * [Genghis: Birth of an Empire](http://www.amazon.com/gp/product/B000QBYERS/) - Conn Iggulden
+    * [Breakfast of Champions (Kurt Vonnegut Series)](http://www.amazon.com/gp/product/B003XRELEI/) - Kurt Vonnegut
+    * [Genghis Khan, Makers of History Series](http://www.amazon.com/gp/product/B004UJOU6C/) - Jacob Abbott
+    * [Slaughterhouse-Five (Kurt Vonnegut Series)](http://www.amazon.com/gp/product/B003XVYLDU/) - Kurt Vonnegut
+    * [The Metamorphosis and Other Stories (Oxford World's Classics)](http://www.amazon.com/gp/product/B003HD2L18/) -- Franz Kafka
+    * [The Man Who Mistook His Wife for a Hat: and other Clinical Tales](http://www.amazon.com/gp/product/B003MQNI6W/) - Oliver Sacks
+    * [Le Bourgeois Gentilhomme](http://www.amazon.com/gp/product/B004UJ7VG8/) - Molière
+    * [Very Bad Poetry](http://www.amazon.com/gp/product/0679776222/) - Ross Petras, Kathryn Petras
+* Non-Fiction:
+    * [Mossad: The Greatest Missions of the Israeli Secret Service](http://www.amazon.com/gp/product/B007HBLPO0/) - Michael Bar-Zohar & Nissim Mishal
+    * [The Only Living Man With A Hole In His Head](http://www.amazon.com/gp/product/B007BV833C/) - Todd Pliss
+    * [How to Write an Opening Sentence](http://author-zone.com/write-opening-sentence/) - Blog post by  Kas Thomas
