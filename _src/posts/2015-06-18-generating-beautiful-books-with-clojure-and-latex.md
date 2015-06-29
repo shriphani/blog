@@ -1,5 +1,5 @@
     Title: A Beautiful Gift With Clojure and LaTeX
-    Date: 2015-06-18T08:32:33
+    Date: 2015-06-29T14:20:33
     Tags: clojure, latex, pdf, religion, books, generate
 
 For my parents' 26th anniversary, I decided to convert an online
