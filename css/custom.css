@@ -144,3 +144,8 @@ img {
     border: 1px solid black;
     
 }
+
+.img-caption {
+    font-size: 10pt;
+    border: 1px solid black;
+}
