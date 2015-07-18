@@ -42,7 +42,6 @@ h1 a {
 h2 {
     color: #2B2625;
     text-align: center;
-    font-family: Merriweather;
 }
 
 h2 a {
@@ -61,17 +60,17 @@ h2.post-title {
 h3 {
     margin-top: 1.5em;
     color: #2B2625;
-    font-family: Merriweather;
 }
 
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Constantia, 'hoefler text', Georgia, serif;
+    font-family: 'chaparral-pro';
     font-size: 1.10em;
     line-height: 1.571em;
     color: #111111;
-    background-color: rgb(221, 221, 221)
+    background-color: rgb(221, 221, 221);
+    text-rendering: optimizeLegibility;
 }
 
 code {
