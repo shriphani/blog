@@ -67,11 +67,12 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Constantia, 'hoefler text', Georgia, serif;
+    font-family: 'chaparral-pro';
     font-size: 1.10em;
     line-height: 1.571em;
     color: #111111;
-    background-color: rgb(221, 221, 221)
+    background-color: rgb(221, 221, 221);
+    text-rendering: optimizeLegibility;
 }
 
 code {
