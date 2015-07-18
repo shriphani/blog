@@ -146,6 +146,9 @@ img {
 }
 
 .img-caption {
-    font-size: 10pt;
-    border: 1px solid black;
+    font-size: 9pt;
+    border: 1px solid rgb(150, 150, 150);
+    width: 300px;
+    text-align: center;
+    float: right;
 }
