@@ -23,7 +23,6 @@ a {
 }
 
 h1 {
-    font-family: Merriweather;
     text-align: center;
 }
 
@@ -66,7 +65,7 @@ div.container { color: #FFFFFF; }
 
 body {
     font-family: 'chaparral-pro';
-    font-size: 1.10em;
+    font-size: 1.25em;
     line-height: 1.571em;
     color: #111111;
     background-color: rgb(221, 221, 221);
@@ -139,15 +138,20 @@ article {
   padding-top:40px;
 }
 
-img {
-    border: 1px solid black;
-    
-}
-
 .img-caption {
     font-size: 9pt;
-    border: 1px solid rgb(150, 150, 150);
-    width: 300px;
+    width: 175px;
     text-align: center;
     float: right;
+    line-height: 100%;
+    font-style: italic;
+}
+
+.img-caption-center {
+    text-align: center;
+    font-size: 9pt;
+    line-height: 100%;
+    font-style: italic;
+    padding-above: 10px;
+    padding-below: 10px;
 }

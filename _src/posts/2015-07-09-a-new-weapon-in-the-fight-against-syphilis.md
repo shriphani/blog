@@ -1,5 +1,5 @@
     Title: A New Weapon In The Fight Against Syphilis
-    Date: 2015-07-09T13:31:26
+    Date: 2015-07-17T13:31:26
     Tags: combinatorial-group-testing, group-testing, dorfman, syphilis, groups, testing, mathematics, tamper-proofing
 
 The American war effort in WW2 was characterized by one of the largest compulsory
@@ -30,12 +30,18 @@ elegant solution.
 
 <!-- more -->
 
+<div class="img-caption-center">
+     <img src="/img/nude_picasso.jpg" /> <br />
+     Nude, Green Leaves and Bust - Pablo Picasso
+</div>
+
+
 ### Group Testing and Syphilis
 
 
 
 <div class="img-caption">
-  <img src="/img/dorfman_portrait.jpg" /> <br />
+  <img src="/img/dorfman_portrait.jpg" width="50%" style="padding-bottom:10px"/> <br />
   Robert Dorfman - portrait from The Harvard Gazette
 </div>
 
