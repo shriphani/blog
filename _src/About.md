@@ -23,8 +23,9 @@ machine-learning and clojure. Most blog posts tend to combine two or
 more seminal works and explore common themes.
 
 
-# Social Media
+# Contact
 
+* Email - <a href="http://www.google.com/recaptcha/mailhide/d?k=01Z_Xp9yosV3ruh7vybHUmHQ==&amp;c=wf4HdBLxinfTG54lRLyeMP7Dqq92aNXjrIyMw1vr7qw=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501Z_Xp9yosV3ruh7vybHUmHQ\75\75\46c\75wf4HdBLxinfTG54lRLyeMP7Dqq92aNXjrIyMw1vr7qw\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...</a>@gmail.com
 * Twitter - [@shriphani](https://twitter.com/shriphani)
 * Facebook - [@shriphani](http://www.facebook.com/shriphani)
 
