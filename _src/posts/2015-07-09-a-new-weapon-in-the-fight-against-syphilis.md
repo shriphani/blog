@@ -9,7 +9,7 @@ inducted.
 There was just one problem. Circa 1940, we didn't know how to mass-produce penicilin and
 contraceptives weren't considered an important public health tool. Syphilis - which earned
 the moniker The Great Imitator (owing to the wide variety of symptoms that victims
-exhibited), claimed 6 out of every 100,000 deaths. In fact, a mere 20 years ago - in the 20s -
+exhibited), claimed 6 out of every 100,000 deaths. In fact, a mere 20 years before - in the 20s -
 Syphilis earned a spot among the top 10 killers in the US.
 
 These conditions meant that every inductee was subjected to a blood test - a
@@ -56,8 +56,7 @@ To exploit group testing our problem needs to have the following
 characteristics:
 
 * Only a fraction of the population's constituents are infected.
-* There is a way to apply the test to a small group of individuals
-testing a group is no different from testing an individual.
+* Testing a group does not involve significantly more work than testing an individual.
 
 Turns out, syphilis satisfies both these criteria. Only a small fraction of people
 are infected. And the blood test performed on an individual's sample
