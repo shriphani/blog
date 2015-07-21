@@ -155,3 +155,16 @@ article {
     padding-above: 10px;
     padding-below: 10px;
 }
+
+div.quote {
+    background-color: rgb(255, 255, 229);
+    font-style: italic;
+    padding-above: 40px;
+    padding-below: 40px;
+    font-size: 13pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+}
