@@ -3,6 +3,11 @@
 I am Shriphani Palakodety. I am a computer scientist based in
 San Francisco, CA.
 
+This blog is focused on interesting ideas in computing, math, AI,
+machine learning and statistics.
+
+I typically post once a month.
+
 # Professional
 
 <a href="https://www.flickr.com/photos/11424398@N08/16895255497"
@@ -19,14 +24,6 @@ Winter-2014), intern <a href="https://twitter.com/Yelp">@Yelp</a>, and
 <a href="https://twitter.com/Microsoft">@Microsoft</a>.
 
 I have worked on Search Engines, AI, and Data mining.
-
-# Personal
-
-The focus of all technical writing on this website is to build an
-easy-to-follow corpus of notes and documents. I primarily write about
-machine-learning and clojure. Most blog posts tend to combine two or
-more seminal works and explore common themes.
-
 
 # Contact
 
