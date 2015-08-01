@@ -1,3 +1,8 @@
+# Personal
+
+I am Shriphani Palakodety. I am a computer scientist based in
+San Francisco, CA.
+
 # Professional
 
 <a href="https://www.flickr.com/photos/11424398@N08/16895255497"
