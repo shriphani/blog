@@ -1,5 +1,8 @@
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
+* Machine Learning:
+    * [EM Tutorial](https://www.cs.duke.edu/courses/spring04/cps196.1/handouts/EM/tomasiEM.pdf) - Carlo Tomasi [mirror](/docs/em_tutorial.pdf)
+
 * Academic Papers:
     * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
     * [LogLog Counting of Large Cardinalities](http://algo.inria.fr/flajolet/Publications/DuFl03.pdf) - Marianne Durand and Philippe Flajolet (paper)
