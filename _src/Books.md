@@ -2,6 +2,7 @@ These are the books, papers, video lectures (some unrelated to my research) I've
 
 * Machine Learning:
     * [EM Tutorial](https://www.cs.duke.edu/courses/spring04/cps196.1/handouts/EM/tomasiEM.pdf) - Carlo Tomasi [mirror](/docs/em_tutorial.pdf)
+        * I prefer this tutorial to others since it is comprehensive, leaves few details to the reader and avoids the "hidden-data" misnomer. The value of EM is explained via a simple MLE procedure. Reading the Rabiner paper after this was a breeze.
 
 * Academic Papers:
     * [Dimension Reduction: A Guided Tour](http://research.microsoft.com/pubs/150728/FnT_dimensionReduction) - Christopher Burges
