@@ -18,7 +18,7 @@ html {
 }
 
 a {
-    color: #F90;
+    color: 'blue';
 }
 
 h1 {
@@ -63,7 +63,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: 'chaparral-pro';
+    font-family: 'chaparral-pro', Palatino, serif;
     font-size: 1.25em;
     line-height: 1.571em;
     color: #111111;
