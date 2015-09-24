@@ -82,18 +82,18 @@ ul.navbar li {
 }
 
 ul.navbar li a {
- color: rgb(150, 150, 150);
+ color: rgb(100, 100, 100);
 }
 
 ul.pagination li a {
  font-family: Helvetica, Arial;
- color: rgb(150, 150, 150);
+ color: rgb(100, 100, 100);
 }
 
 
 div.date {
     font-size: 0.75em;
-    color: rgb(150, 150, 150);
+    color: rgb(100, 100, 100);
 }
 
 div.tags {
@@ -102,7 +102,7 @@ div.tags {
 }
 
 div.tags a {
-    color: rgb(150, 150, 150);
+    color: rgb(100, 100, 100);
     font-family: Helvetica, Arial;
 }
 
@@ -123,7 +123,7 @@ html {
 }
 
 li {
-  line-height: 150%;
+  line-height: 100%;
 }
 
 .index-post {
