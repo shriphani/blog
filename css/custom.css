@@ -72,10 +72,24 @@ pre {
 ul.navbar { 
     font-size: 1em;
     padding-left: 0;
-    margin-left: 0; 
+    margin-left: 0;
+    font-family: Helvetica, Arial;
 }
 
-ul.navbar li { display: inline; list-style-type: none; }
+ul.navbar li {
+ display: inline; 
+ list-style-type: none; 
+}
+
+ul.navbar li a {
+ color: rgb(150, 150, 150);
+}
+
+ul.pagination li a {
+ font-family: Helvetica, Arial;
+ color: rgb(150, 150, 150);
+}
+
 
 div.date {
     font-size: 0.75em;
