@@ -67,21 +67,22 @@
     <div class="container-fluid">
       <!-- This div's class should be "row-fluid" if you're using
            Bootstrap's responsive CSS, else "row". -->
-      <div class="row-fluid">
         <!-- Remember that Twitter Bootstrap has a 12 cell model. The
              spanN classes should add up to 12.  For instance 3
              "span4" divs, or 2 "span6" divs. In this example the main
              content is "span9", plsu a "span3" right sidebar. -->
         <!-- Main column -->
-        <div id="content" class="span8 box content-centered">
+      <div class="row-fluid">
+        <div class="span1">
+        </div>
+        <div id="content" class="span6">
           <!-- To put something only on the home page, check for
                `uri-path` being "/index.html" -->
-	  <div style="margin-left: 45px; margin-right: 45px;">
+	  <div>
 
       	  <div id="header" style="padding-top: 30px;">
                   @list{
-                  <!-- <h1><a href="/index.html">Shriphani Palakodety</a></h1> -->
-      	          <ul class="navbar" style="text-align:center">
+      	          <ul class="navbar">
                     <li>
                       <a href="/">Home</a>
                     </li>
@@ -108,19 +109,23 @@
                   	 </ul>}
           </div>
 
-	  <div style="margin-left:5px;">
+	  <div style="">
             @|contents|
 	  </div>
+    </div>
+          <hr />
+          <div>
+            <p style="font-style: italic, font-size:2em">
+        	    <em>Soli Deo Gloria</em>
+            </p>
           </div>
           <hr />
-          <p style="text-align:center; font-style: italic, font-size:2em;">
-      	    <em>Soli Deo Gloria</em>
-          </p>
-          <hr />
-          <div style="margin-left: 45px;">
-          <p style='text-align:center;'>(c) Shriphani Palakodety 2013-2014</p>
+          <div>
+          <p>(c) Shriphani Palakodety 2013-2015</p>
           </div>
-	</div>
       </div>
+      <div class="span5">
+      </div>
+    </div>
   </body>
 </html>

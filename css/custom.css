@@ -1,28 +1,12 @@
 /* custom.css */
 
 
-.content-centered {
- margin: 0 auto !important;
- float: none !important;
- border-radius: 9px ;
- -moz-border-radius: 9px ;
- -o-box-shadow: 0 5px 5px #333333 ;
- -webkit-box-shadow: 0 5px 5px #333333 ;
- -moz-box-shadow: 0 5px 5px #333333 ;
- box-shadow: 0 5px 5px #333333 ;
- background-color: white;
-}
-
 html {
   height: 100%;
 }
 
 a {
     color: 'blue';
-}
-
-h1 {
-    text-align: center;
 }
 
 h1 a {
@@ -39,7 +23,6 @@ h1 a {
 
 h2 {
     color: #2B2625;
-    text-align: center;
 }
 
 h2 a {
@@ -86,17 +69,23 @@ pre {
     overflow: auto;
 }
 
+ul.navbar { font-size: 1em, padding-left: 0; }
+
 ul.navbar li { display: inline; list-style-type: none; }
 
 div.date {
-    text-align: center;
     font-size: 0.75em;
+    color: rgb(150, 150, 150);
 }
 
 div.tags {
-    text-align: center;
     font-size: 0.75em;
     margin-bottom: 1em;
+}
+
+div.tags a {
+    color: rgb(150, 150, 150);
+    font-family: Helvetica, Arial;
 }
 
 p {
@@ -140,14 +129,12 @@ article {
 .img-caption {
     font-size: 9pt;
     width: 175px;
-    text-align: center;
     float: right;
     line-height: 100%;
     font-style: italic;
 }
 
 .img-caption-center {
-    text-align: center;
     font-size: 9pt;
     line-height: 100%;
     font-style: italic;
