@@ -123,7 +123,7 @@ html {
 }
 
 li {
-  line-height: 100%;
+    line-height: 1.571em;
 }
 
 .index-post {
