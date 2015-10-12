@@ -9,17 +9,30 @@ I wrote Pegasus after the existing choices in the Java ecosystem left me
 frustrated.
 
 The more popular crawler projects (Heritrix and Nutch) are clunky and not
-trivially configurable.
+easy to configure. I have often wanted to be able to supply my own extractors, save payloads directly to a database and so on. Short of digging
+into a poorly documented codebase, there are no real options.
 
-Tiny crawlers are barely beyond toy projects - they retain all their data-structures
-in memory. A simple crash somewhere causes you to lose all the precious state you
-built up over time.
+Tiny crawlers hold all their data structures in memory and are incapable
+of crawling the entire web. A simple crash somewhere causes you to
+lose all state built over a long-running crawl.
 
 Pegasus gives you the following:
 
 1. Async behavior using the excellent `core.async` library.
 2. Politeness - by following `nofollow` and `robots.txt` directives.
-3. 
-
-
+3. A repl to inspect and alter critical routines and data-structures mid-crawl.
+4. Disk-backed data structures that allow us to checkpoint and recover state.
 <!-- more -->
+
+# Process Pipeline
+
+Each routine of the crawler consumes from a channel and
+writes to another which the next phase of the pipeline
+consumes from and so on.
+
+The channels are provided by `core.async` and allow one to
+spin up multiple instances of each pipeline component - thus
+you can make several requests in parallel. For instance,
+the crawler can make multiple HTTP GET requests to sites
+in parallel, extract links and write the web-page bodies
+to disk in parallel.
