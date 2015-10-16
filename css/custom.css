@@ -6,7 +6,7 @@ html {
 }
 
 a {
-    color: #08c;
+    color: red
 }
 
 h1 a {
@@ -50,7 +50,6 @@ body {
     font-size: 1.5em;
     line-height: 1.571em;
     color: #111111;
-    background-color: rgb(221, 221, 221);
     text-rendering: optimizeLegibility;
 }
 
@@ -82,18 +81,18 @@ ul.navbar li {
 }
 
 ul.navbar li a {
- color: rgb(100, 100, 100);
+ color: red;
 }
 
 ul.pagination li a {
  font-family: Helvetica, Arial;
- color: rgb(100, 100, 100);
+ color: red;
 }
 
 
 div.date {
     font-size: 0.75em;
-    color: rgb(100, 100, 100);
+    color: red
 }
 
 div.tags {
@@ -103,7 +102,7 @@ div.tags {
 }
 
 div.tags a {
-    color: rgb(100, 100, 100);
+    color: red
     font-family: Helvetica, Arial;
 }
 
