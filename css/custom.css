@@ -9,12 +9,16 @@ a {
     color: red
 }
 
+h1 {
+   font-family: canada-type-gibson;
+}
+
 h1 a {
     color: #2B2625;
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-	font-family: canada-type-gibson;
+    font-family: canada-type-gibson;
 }
 
 #header {
