@@ -74,6 +74,15 @@ pre {
     overflow: auto;
 }
 
+blockquote {
+	margin-bottom: 20px;
+}
+
+blockquote p {
+    line-height: 1.571em;
+	margin-bottom: 20px;
+}
+
 ul.navbar { 
     font-size: 1em;
     padding-left: 0;
