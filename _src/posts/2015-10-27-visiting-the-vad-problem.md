@@ -8,6 +8,10 @@ It was a cute hack but it was nothing close to production-ready. The algorithm
 is not robust enough to deploy in a production app.
 
 Fortunately, the WebRTC project contains a very powerful VAD. Your favorite
-language (hopefully) has an FFI that can communicate with the
+language (hopefully) has an FFI that can communicate with the native WebRTC
+libraries.
 
-<!-- more -->
+In this blog post, I am releasing Python, Java and Clojure implementations.
+They are all based on SWIG.
+
+
