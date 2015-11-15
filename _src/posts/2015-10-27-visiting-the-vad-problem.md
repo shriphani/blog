@@ -1,17 +1,31 @@
-    Title: Visiting the VAD Problem
-    Date: 2015-10-27T02:06:03
-    Tags: python, clojure, linux, VAD
+    Title: Voice Activity Detection in Python and SWIG
+    Date: 2015-11-14T02:06:03
+    Tags: python, linux, VAD
 
-In the recent past, I have received a lot of questions on voice activity detection.
-About 5 years ago, I implemented a VAD algorithm in one of my projects.
-It was a cute hack but it was nothing close to production-ready. The algorithm
-is not robust enough to deploy in a production app.
+The WebRTC codebase contains a very solid voice activity detection (VAD)
+algorithm. The project itself is a treasure-trove of solid solutions to
+common problems in speech, audio and video streaming, encoding etc.
 
-Fortunately, the WebRTC project contains a very powerful VAD. Your favorite
-language (hopefully) has an FFI that can communicate with the native WebRTC
-libraries.
+Recently, I was in need of a solid VAD I could use from Python. I wrote
+one myself in college (and to be fair it was a bit shit).
 
-In this blog post, I am releasing Python, Java and Clojure implementations.
-They are all based on SWIG.
+In a few hours I was able to isolate the source code from the WebRTC project
+and write a Python wrapper for it in SWIG.
 
+A working VAD for Linux in Python on `x86_64` is available in [this repo](https://github.com/shriphani/vad_python).
 
+The WebRTC VAD components are in [this repo](https://github.com/shriphani/VAD-py).
+
+Some SWIG tips:
+
+* C functions typically have the following signature:
+```
+int funcName(int *input_array, size_t array_size);
+```
+Numpy ships with a fantastic set of typemaps (defined in [numpy.i](http://docs.scipy.org/doc/numpy/reference/swig.interface-file.html)) for just this
+sort of thing. Drop `numpy.i` into your directory and include it
+in your SWIG setup.
+* A lot of typemaps aren't defined in `numpy.i` - do not hesitate
+to write a header. For instance, `numpy.i` doesn't have a typemap
+involving a `const int *` - a small wrapper around your desired
+function call it perfect and allows you to use existing typemaps.
