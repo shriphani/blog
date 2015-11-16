@@ -52,7 +52,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: Constantia, 'Hoefler Text', Palatino, Georgia, serif;
+    font-family: "chaparral-pro", Palatino, Georgia, serif;
     font-size: 1.5em;
     line-height: 1.571em;
     color: #111111;
@@ -83,7 +83,7 @@ blockquote p {
 	margin-bottom: 20px;
 }
 
-ul.navbar { 
+ul.navbar {
     font-size: 1em;
     padding-left: 0;
     margin-left: 0;
@@ -91,8 +91,8 @@ ul.navbar {
 }
 
 ul.navbar li {
- display: inline; 
- list-style-type: none; 
+ display: inline;
+ list-style-type: none;
 }
 
 ul.navbar li a {
