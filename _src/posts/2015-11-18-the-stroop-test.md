@@ -11,4 +11,4 @@ Like so:
 
 If you comprehend the words, you perform poorly at this test than otherwise.
 
-[]The Stroop test on Wikipedia](https://en.wikipedia.org/wiki/Stroop_effect).
+[The Stroop test on Wikipedia](https://en.wikipedia.org/wiki/Stroop_effect).
