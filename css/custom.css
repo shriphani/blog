@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-   font-family: cursive;
+   font-family: "le-monde-livre-classic-std-s", cursive;
 }
 
 h1 a {
@@ -18,7 +18,7 @@ h1 a {
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-    font-family: cursive;
+    font-family: "le-monde-livre-classic-std-s", cursive;
 }
 
 #header {
@@ -28,7 +28,7 @@ h1 a {
 
 h2 {
     color: #2B2625;
-    font-family: cursive;
+    font-family: "le-monde-livre-classic-std-s", cursive;
 }
 
 h2 a {
