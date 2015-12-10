@@ -13,7 +13,11 @@ These are the books, papers, video lectures (some unrelated to my research) I've
     * [The Little Schemer - 4th Edition](http://www.amazon.com/gp/product/0262560992/) - Daniel P. Friedman, Matthias Felleisen
 * Presentations:
     * [Pursuit of Low-dimensional Structures in High-dimensional Data](https://vimeo.com/80319158) - Yi Ma (video)
-* Fiction:
+
+* Inspiration:
+    * [A Message To Garcia](/docs/message_to_garcia.pdf) - Elbert Hubbard
+
+* Misc:
     * [Before I go](http://stanmed.stanford.edu/2015spring/before-i-go.html) - Paul Kalanithi
     * [American Legends: The Life of Howard Hughes](http://www.amazon.com/gp/product/B00KRO8T70/) - Charles Rivers Editors (publisher).
     * [Genghis Khan and the Making of the Modern World](http://www.amazon.com/gp/product/B000FCK206/) - Jack Weatherford
