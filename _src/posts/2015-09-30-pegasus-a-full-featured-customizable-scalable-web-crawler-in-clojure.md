@@ -20,7 +20,7 @@ Pegasus gives you the following:
 
 1. Async behavior using the excellent `core.async` library.
 2. Politeness - by following `nofollow` and `robots.txt` directives.
-3. A repl to inspect and alter critical routines and data-structures mid-crawl.
+3. A repl to inspect critical data-structures at crawl time.
 4. Disk-backed data structures that allow us to checkpoint and recover state.
 <!-- more -->
 
@@ -36,3 +36,16 @@ you can make several requests in parallel. For instance,
 the crawler can make multiple HTTP GET requests to sites
 in parallel, extract links and write the web-page bodies
 to disk in parallel.
+
+# Politeness
+
+Politeness is achieved using a combination of:
+
+1. A minimum delay between successive requests to a host (I might change
+switch from using hosts to using domains obtained from a DNS lookup).
+2. Avoiding paths mentioned in `robots.txt`
+3. Avoiding links with the attribute `rel=nofollow`
+
+Of course all these parameters are configurable.
+
+# 
