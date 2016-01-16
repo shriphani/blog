@@ -2,7 +2,7 @@
     Date: 2015-09-30T11:57:26
     Tags: clojure, scale, scalable, crawler, web-crawler
 
-[Pegasuse](http://getpegasus.io) is a scalable, multithreaded web-crawler
+[Pegasus](http://getpegasus.io) is a scalable, multithreaded web-crawler
 for clojure.
 
 I wrote Pegasus after the existing choices in the Java ecosystem left me
@@ -20,45 +20,41 @@ Pegasus gives you the following:
 
 1. Parallelism using the excellent `core.async` library.
 2. Disk-backed data structures that allow crawls to survive crashes, system restarts etc.
-3. Implements support for `robots.txt`. So crawls are polite.
+3. Implements the bare minimum politeness needed in crawlers (support for `robots.txt` and `rel='nofollow'`)
 
 <!-- more -->
 
-A crawl is configured using a config - a clojure map. All crawl state
-is contained in this map.
+A crawl is configured using a config object - a clojure map. All crawl state
+such as references to important data-structures, function definitions, crawl-specific
+vars, is stored in this config.
+
+The config is available to all critical functions and allows us to
+(i) maintain important crawl-state, and (ii) update important data-structures
+on-the-fly.
 
 Some critical pieces:
 
 # Process Pipeline
 
-`core.async` allows us to specify a pipeline. Critical routines like
-the extractor (which consumes a webpage and produces a set of links to
-follow), state-updates etc can be parallelized.
+`core.async` allows us to specify a pipeline using `pipeline-blocking`.
+The default pipeline in pegasus consists of a set of simple functions.
+These routines are invoked by producers and consumers that produce
+and consume from, well `core.async` channels.
+
+`schema`'s are used to enforce structural requirements for all processes.
 
 Here's a simple example of the pipeline:
 
+FIXME
 ```clojure
-{:seed nil
-                      :frontier default-frontier-fn
-                      :extractor default-extractor-fn
-                      :writer default-writer-fn
-                      :stop default-stop-check
-                      :job-dir "/tmp" ; by-default data-structures sit in /tmp. Do change this :)
-                      :struct-dir "data-structures"
-                      :logs-dir "logs"
-                      :corpus-dir "corpus"
-                      :pipeline [:frontier
-                                 :update-cache ; defined during the cache init phase
-                                 :extractor
-                                 :writer]
-                      :host-last-ping-times (atom {})
-                      :min-delay 2
-                                        ;:crawled-bloom-filter
-                      :estimated-crawl-size 1000000
-                      :false-positive-probability 0.01
-                      :visited-cache-name "visited-cache"
-                      :to-visit-cache-name "to-visit-cache"
-                      :num-visited (atom 0)}
+{
+    ...
+    :pipeline [:frontier
+            :update-cache ; defined during the cache init
+            :extractor
+            :writer]
+    ...
+}
 ```
 
 # Politeness
@@ -67,14 +63,35 @@ Politeness is achieved using a combination of:
 
 1. A minimum delay between successive requests to a host.
 2. Robots.txt directives.
+3. Not following `rel="nofollow"` urls.
 
 # Examples
 
 In this section, I am going to implement some simple crawl tasks.
 These should give you a flavor for what's possible.
 
-I've tried to strike a balance between simplicity and ability.
+## Enlive selectors for crawling submissions on reddit
+First, let us try to crawl all submissions on reddit. We need to
+extract submissions and pagination links. We also stop the crawl
+at 1000 documents. Enlive makes it easy to do this sort of stuff.
 
+FIXME
 ```clojure
 
+```
+
+## XPath selectors for crawling submissions on reddit
+
+In this example, we use XPaths (via the `clj-xpath` library).
+
+FIXME
+```clojure
+```
+
+## Save reddit submissions to a SQLite database.
+
+In this example, we save crawl-state into a SQLite database
+
+FIXME
+```clojure
 ```
