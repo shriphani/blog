@@ -83,6 +83,14 @@ blockquote p {
 	margin-bottom: 20px;
 }
 
+ul {
+	margin-bottom: 1em;
+}
+
+ol {
+	margin-bottom: 1em;
+}
+
 ul.navbar {
     font-size: 1em;
     padding-left: 0;

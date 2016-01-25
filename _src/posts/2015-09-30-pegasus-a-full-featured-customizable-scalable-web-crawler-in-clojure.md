@@ -1,14 +1,16 @@
-    Title: Pegasus: A Full-Featured, Customizable, Scalable Web-Crawler in Clojure
+    Title: Pegasus: A Modular, Durable Web Crawler For Clojure
     Date: 2016-01-25T00:10:26
     Tags: clojure, scale, scalable, crawler, web-crawler
 
-[Pegasus](http://getpegasus.io) is a scalable, multithreaded web-crawler
+<img src="https://raw.githubusercontent.com/shriphani/pegasus/master/pegasus_logo.png" />
+
+[Pegasus](http://getpegasus.io) is a durable, multithreaded web-crawler
 for clojure.
 
 I wrote Pegasus after the existing choices in the Java ecosystem left me
 frustrated.
 
-The more popular crawler projects (Heritrix and Nutch) are clunky and not
+The more popular crawler projects ([Heritrix](https://webarchive.jira.com/wiki/display/Heritrix/Heritrix) and [Nutch](http://nutch.apache.org/)) are clunky and not
 easy to configure. I have often wanted to be able to supply my own extractors,
 save payloads directly to a database and so on. Short of digging
 into large codebases, there isn't much of an option there.
@@ -21,7 +23,8 @@ lose all state built over a long-running crawl. I also want to be able to
 Pegasus gives you the following:
 
 1. Parallelism using the excellent `core.async` library.
-2. Disk-backed data structures that allow crawls to survive crashes, system restarts etc. (I am still implementing the restart bits).
+2. Disk-backed data structures that allow crawls to survive crashes,
+system restarts etc. (I am still implementing the restart bits).
 3. Implements the bare minimum politeness needed in crawlers (support for `robots.txt` and `rel='nofollow'`).
 
 <!-- more -->
