@@ -28,7 +28,7 @@ h1 a {
 
 h2 {
     color: #2B2625;
-    font-family: "le-monde-livre-classic-std-s", cursive;
+    font-family: "mono45-headline", monospace;
 }
 
 h2 a {
@@ -52,7 +52,7 @@ h3 {
 div.container { color: #FFFFFF; }
 
 body {
-    font-family: "garamond-premier-pro", Palatino, Georgia, serif;
+    font-family: "prestige-elite-std", monospace;
     font-size: 1.75em;
     line-height: 1.571em;
     color: #111111;
