@@ -53,7 +53,7 @@ div.container { color: #FFFFFF; }
 
 body {
     font-family: "prestige-elite-std", monospace;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1.571em;
     color: #111111;
     text-rendering: optimizeLegibility;
@@ -107,9 +107,14 @@ ul.navbar li a {
  color: red;
 }
 
+ul.pagination {
+	text-align: center;
+}
+
 ul.pagination li a {
  font-family: Helvetica, Arial;
  color: red;
+ text-align: center;
 }
 
 
@@ -159,8 +164,8 @@ table.tags-table {
 }
 
 ul.pagination li {
-  display: inline-block;
-  border-sizing:border-box;
+	display: inline-block;
+	border-sizing:border-box;
 }
 
 article {
