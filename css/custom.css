@@ -10,7 +10,8 @@ a {
 }
 
 h1 {
-   font-family: "mono45-headline", cursive;
+	font-family:'Avenir Next LT W02SC Heavy', sans-serif;
+	text-transform: uppercase;
 }
 
 h1 a {
@@ -18,7 +19,8 @@ h1 a {
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-    font-family: "mono45-headline", cursive;
+	font-family:'Avenir Next LT W02SC Heavy';
+	text-transform: uppercase;
 }
 
 #header {
@@ -28,7 +30,8 @@ h1 a {
 
 h2 {
     color: #2B2625;
-    font-family: "mono45-headline", monospace;
+	font-family:'Avenir Next LT W02SC Heavy';
+	text-transform: uppercase;
 }
 
 h2 a {
@@ -49,12 +52,10 @@ h3 {
     color: #2B2625;
 }
 
-div.container { color: #FFFFFF; }
-
 body {
-    font-family: "prestige-elite-std", monospace;
+	font-family:'AvenirNextLTW01-Regular', sans-serif;
     font-size: 1.5em;
-    line-height: 1.571em;
+    line-height: 2em;
     color: #111111;
     text-rendering: optimizeLegibility;
 }
@@ -199,4 +200,11 @@ div.quote {
     margin-bottom: 20px;
     margin-right: 20px;
     float: left;
+}
+
+div#content {
+	text-align: left;
+	float: none;
+	margin: 0 auto;
+	max-width: 700px;
 }
