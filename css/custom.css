@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-	font-family:'Avenir Next LT W02SC Heavy', sans-serif;
+	font-family:'AvenirNextLTW01-Regular';
 	text-transform: uppercase;
 }
 
@@ -19,7 +19,7 @@ h1 a {
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-	font-family:'Avenir Next LT W02SC Heavy';
+	font-family:'AvenirNextLTW01-Regular';
 	text-transform: uppercase;
 }
 
@@ -30,7 +30,7 @@ h1 a {
 
 h2 {
     color: #2B2625;
-	font-family:'Avenir Next LT W02SC Heavy';
+	font-family: 'AvenirNextLTW01-Regular';
 	text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@ h3 {
 }
 
 body {
-	font-family:'AvenirNextLTW01-Regular', sans-serif;
+    font-family:'Danton W01 Regular';
     font-size: 1.5em;
     line-height: 2em;
     color: #111111;
