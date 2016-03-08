@@ -2,6 +2,10 @@
 </article>
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
+* On this blog:
+  * [A New Weapon In The Fight Against Syphilis](http://blog.shriphani.com/2015/07/21/a-new-weapon-in-the-fight-against-syphilis/)
+  * [A Smallest Eigenvalues Of A Graph Laplacian](http://blog.shriphani.com/2015/04/06/the-smallest-eigenvalues-of-a-graph-laplacian/)
+
 * Machine Learning:
     * [EM Tutorial](https://www.cs.duke.edu/courses/spring04/cps196.1/handouts/EM/tomasiEM.pdf) - Carlo Tomasi [mirror](/docs/em_tutorial.pdf)
         * I prefer this tutorial to others since it is comprehensive, leaves few details to the reader and avoids the "hidden-data" misnomer. The value of EM is explained via a simple MLE procedure. Reading the Rabiner paper after this was a breeze.

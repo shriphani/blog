@@ -2,13 +2,14 @@
 </article>
 # Personal
 
-I am Shriphani Palakodety. I am a computer scientist based in
-San Francisco, CA.
+Shriphani Palakodety is a computer scientist based in Palo Alto, CA.
+He earned the M.S. at Carnegie Mellon University specializing in
+artificial intelligence. His expertise involves bringing high-quality
+solutions from the research lab into production.
 
 This blog is focused on interesting ideas in computing, math, AI,
-machine learning and statistics.
-
-I typically post once a month.
+machine learning and statistics. The typical frequency is about
+a month.
 
 # Professional
 
