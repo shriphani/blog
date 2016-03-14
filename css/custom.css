@@ -96,7 +96,7 @@ ul.navbar {
     font-size: 1em;
     padding-left: 0;
     margin-left: 0;
-    font-family: Helvetica, Arial;
+    font-family: 'AvenirNextLTW01-Regular', sans-serif;
 }
 
 ul.navbar li {
@@ -113,7 +113,7 @@ ul.pagination {
 }
 
 ul.pagination li a {
- font-family: Helvetica, Arial;
+ font-family: 'AvenirNextLTW01-Regular', sans-serif;
  color: red;
  text-align: center;
 }
@@ -132,7 +132,7 @@ div.tags {
 
 div.tags a {
     color: red
-    font-family: Helvetica, Arial;
+    font-family: 'AvenirNextLTW01-Regular', sans-serif;
 }
 
 p {
