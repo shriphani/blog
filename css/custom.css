@@ -26,6 +26,8 @@ h1 a {
 #header {
     margin-top: 4em;
     margin-bottom: 1em;
+    font-family: 'AvenirNextLTW01-Regular';
+    text-transform: uppercase;
 }
 
 h2 {
@@ -121,13 +123,15 @@ ul.pagination li a {
 
 div.date {
     font-size: 0.75em;
-    color: red
+    color: red;
+    font-family: 'AvenirNextLTW01-Regular';
 }
 
 div.tags {
     font-size: 0.5em;
     margin-bottom: 1em;
     text-transform: uppercase;
+    font-family: 'AvenirNextLTW01-Regular';
 }
 
 div.tags a {
