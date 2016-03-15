@@ -2,7 +2,10 @@
 </article>
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
-* Engineering
+* Advice from mankind's finest:
+	* [Claude Shannon on the Information Theory bandwagon](/docs/shannon-bandwagon.pdf)
+
+* Engineering:
 	* [how I write modules](http://substack.net/how_I_write_modules) - Advice from James Halliday I've internalized.
 
 * On this blog:
