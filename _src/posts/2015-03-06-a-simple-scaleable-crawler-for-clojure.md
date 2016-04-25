@@ -2,6 +2,8 @@
     Date: 2015-03-12T05:29:39
     Tags: clojure, web-crawling, heritrix, java, scalable, www, crawler
 
+*Update*: I have been working on a nicer fuller crawler in clojure - [Pegasus](https://github.com/shriphani/pegasus)
+
 [Nutch](http://nutch.apache.org/) and
 [Heritrix](https://webarchive.jira.com/secure/Dashboard.jspa) are
 battle-tested
