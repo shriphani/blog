@@ -49,7 +49,7 @@ BuzzFeed has mastered the art of bringing people to their site, creating a stabl
 
 To survive, journalism needs to change. There are new gatekeepers, new platforms and new competitors. News needs to change from a brain-dump to a new kind of performance art. Existing media powerhouses have several weapons in their war chest - a brand-name that resonates well, existing relationships with the rich and powerful, and revenue streams (they might be dwindling but at least they're around).
 
-This soft-power needs to mix with the best photography, web-design, typography and visualization-tech. In short, each piece of investigative journalism becomes a distinct, pleasant memory - like when Walter Cronkite covered the moon landings:
+This soft-power needs to mix with the best photography, web-design, typography and visualization-tech. Each piece of investigative journalism should become a distinct, pleasant memory - like when Walter Cronkite covered the moon landings:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/_3vVjyqkwrw" frameborder="0" allowfullscreen></iframe>
 
