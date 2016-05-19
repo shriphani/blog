@@ -35,15 +35,17 @@ h2 {
 
 h2 a {
     color: #2B2625;
-    font-size: 35pt;
+    font-size: 31.5px;
     line-height: 1.05em;
     margin-top: 2px;
+    text-transform: uppercase;
 }
 
 h2.post-title {
     line-height: 1.05em;
-    font-size: 35pt;
+    font-size: 31.5px;
     color: #2B2625;
+    text-transform: uppercase;
 }
 
 h3 {
