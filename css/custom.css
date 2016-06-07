@@ -54,8 +54,8 @@ h3 {
 }
 
 body {
-    font-family:'Figural W01 Book';
-    font-size: 18px;
+    font-family:'FreightText W01 Medium';
+    font-size: 24px;
     line-height: 2em;
     color: #111111;
     text-rendering: optimizeLegibility;
@@ -208,5 +208,5 @@ div#content {
 	text-align: left;
 	float: none;
 	margin: 0 auto;
-	max-width: 540px;
+	max-width: 640px;
 }
