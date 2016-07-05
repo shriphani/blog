@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-	font-family:'AvenirNextLTW01-Regular';
+	font-family:'Constantia W01 Regular';
 	text-transform: uppercase;
 }
 
@@ -19,18 +19,18 @@ h1 a {
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-	font-family:'AvenirNextLTW01-Regular';
+	font-family:'Constantia W01 Regular';
 }
 
 #header {
     margin-bottom: 1em;
-    font-family: 'AvenirNextLTW01-Regular';
-    
+    font-family: 'Constantia W01 Regular';
+
 }
 
 h2 {
     color: #2B2625;
-    font-family: 'AvenirNextLTW01-Regular';
+    font-family: 'Constantia W01 Regular';
 }
 
 h2 a {
@@ -38,14 +38,14 @@ h2 a {
     font-size: 31.5px;
     line-height: 1.05em;
     margin-top: 2px;
-    text-transform: uppercase;
+    font-style: italic;
 }
 
 h2.post-title {
     line-height: 1.05em;
     font-size: 31.5px;
     color: #2B2625;
-    text-transform: uppercase;
+    font-style: italic;
 }
 
 h3 {
@@ -55,7 +55,7 @@ h3 {
 
 body {
     font-family: 'Constantia W01 Regular';
-    font-size: 24px;
+    font-size: 18px;
     line-height: 2em;
     color: #111111;
     text-rendering: optimizeLegibility;
