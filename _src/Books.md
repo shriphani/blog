@@ -2,6 +2,8 @@
 </article>
 These are the books, papers, video lectures (some unrelated to my research) I've recently read and found interesting:
 
+* Quirky Stuff
+	* [Hot Dog Taste Test](http://amzn.to/29lVARF) - Lisa Hanawalt - entertainment for ages 9 - 100.
 * Advice from mankind's finest:
 	* [Claude Shannon on the Information Theory bandwagon](/docs/shannon-bandwagon.pdf)
 
