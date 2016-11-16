@@ -2,7 +2,7 @@
     Date: 2016-11-16T01:00:20
     Tags: clojure, web-crawling, dsl, crawling, scraping
 
-When building crawlers, most of the effort is expended in guiding them through a website. For example, if we want to crawl all pages and individual on this blog, we extract links like so:
+When building crawlers, most of the effort is expended in guiding them through a website. For example, if we want to crawl all pages and individual posts on this blog, we extract links like so:
 
 1. Visit current webpage
 2. Extract pagination links
@@ -22,17 +22,17 @@ Since the focus (in this blog post at least) in on extracting links, let us look
 
 ```clojure
 (defextractors
-                       (extract :at-selector [:article :header :h2 :a]
+  (extract :at-selector [:article :header :h2 :a]
 
-                                :follow :href
+           :follow :href
 
-                                :with-regex #"blog.shriphani.com")
+           :with-regex #"blog.shriphani.com")
                        
-                       (extract :at-selector [:ul.pagination :a]
+  (extract :at-selector [:ul.pagination :a]
 
-                                :follow :href
+           :follow :href
                                 
-                                :with-regex #"blog.shriphani.com"))
+           :with-regex #"blog.shriphani.com"))
 ```
 
 And that is it! We specified an elive selector to pull tags, the attribute entry to follow and then filter these URLs with a regex.
