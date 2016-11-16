@@ -2,7 +2,7 @@
     Date: 2016-11-16T01:00:20
     Tags: clojure, web-crawling, dsl, crawling, scraping
 
-When building crawlers, most of the effort is expended in guiding a crawler through a website. For example, if we want to crawl all pages and individual on this blog, we extract links like so:
+When building crawlers, most of the effort is expended in guiding them through a website. For example, if we want to crawl all pages and individual on this blog, we extract links like so:
 
 1. Visit current webpage
 2. Extract pagination links
