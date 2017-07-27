@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-	font-family:'Constantia W01 Regular', Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 h1 a {
@@ -18,19 +18,19 @@ h1 a {
     line-height: 100%;
     font-size: 45pt;
     font-weight: bold;
-    font-family:'Constantia W01 Regular', Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 #header {
     margin-bottom: 1em;
-    font-family: 'Constantia W01 Regular', Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 
 }
 
 h2 {
     color: #2B2625;
     font-weight: bold;
-    font-family: 'Constantia W01 Regular', Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -54,7 +54,7 @@ h3 {
 
 body {
     font-family: 'Constantia W01 Regular', Palatino, serif;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2em;
     color: #111111;
     text-rendering: optimizeLegibility;
@@ -96,7 +96,7 @@ ul.navbar {
     font-size: 1em;
     padding-left: 0;
     margin-left: 0;
-    font-family: 'Constantia W01 Regular', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 ul.navbar li {
@@ -113,7 +113,7 @@ ul.pagination {
 }
 
 ul.pagination li a {
- font-family: 'Constantia W01 Regular', sans-serif;
+ font-family: Helvetica, sans-serif;
  color: red;
  text-align: center;
 }
@@ -122,13 +122,13 @@ ul.pagination li a {
 div.date {
     font-size: 0.75em;
     color: red;
-    font-family: 'Constantia W01 Regular';
+    font-family: Helvetica, sans-serif;
 }
 
 div.tags {
-    font-size: 0.5em;
+    font-size: 0.75em;
     text-transform: uppercase;
-    font-family: 'Constantia W01 Regular';
+    font-family: Helvetica, sans-serif;
 }
 
 div.tags a {
@@ -209,3 +209,43 @@ div#content {
 	margin: 0 auto;
 	max-width: 625px;
 }
+
+.nav3 {
+    height: auto;
+    width: 100%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 10px;
+}
+
+.nav4 {
+    height: auto;
+    width: 100%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.iconsl{
+    display:inline-block;
+    width: 49.5%; 
+    height: 49.5%;
+    padding-right: 2px;
+   }
+
+.iconsr{
+    display:inline-block;
+    width: 49.5%; 
+    height: 49.5%;
+	float: right;
+    padding-left: 2px;
+   }
+
+ a.icons:hover {
+     background: #C93;
+ }
