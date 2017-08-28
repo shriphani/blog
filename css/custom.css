@@ -1,5 +1,17 @@
 /* custom.css */
 
+div.gallery {
+    width: 100%;
+}
+
+div.gallery a img {
+    padding: 60px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    height: auto;
+}
 
 html {
   height: 100%;
@@ -10,15 +22,18 @@ a {
 }
 
 h1 {
-	font-family: Helvetica, sans-serif;
+    color: #2B2625;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 h1 a {
     color: #2B2625;
-    line-height: 100%;
-    font-size: 45pt;
+    font-size: 31.5px;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
+    margin-top: 2px;
 }
 
 #header {

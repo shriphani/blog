@@ -1,36 +1,61 @@
 <article>
 </article>
-# Personal
 
-Shriphani Palakodety is a computer scientist based in Palo Alto, CA.
-He earned the M.S. at Carnegie Mellon University specializing in
-artificial intelligence. His expertise involves bringing high-quality
-solutions from the research lab into production.
+Engineer at Onai Technology.
 
-This blog is focused on interesting ideas in computing, math, AI,
-machine learning and statistics. The typical frequency is about
-a month.
+Formerly with:
 
-# Professional
+* Carnegie Mellon U.
+* Yelp
+* Microsoft
+* Purdue
 
-<a href="https://www.flickr.com/photos/11424398@N08/16895255497"
-title="Joshua Tree by Shriphani Palakodety, on Flickr"><img
-src="https://farm8.staticflickr.com/7651/16895255497_783194dda9_n.jpg"
-width="140" height="187" alt="Joshua Tree" style="float: right; border: 1px solid #021a40;" /></a>
+Topics of interest for this website - aviation, hang-gliding, carpentry, woodworking, pyrography, artificial intelligence, optimization, mathematics, graph theory.
 
-Engineer at [Onu Technology](http://www.onu.io)
+# Projects
 
-Previously, researcher @ <a href="https://www.kimonolabs.com/">Kimono
-Labs</a>, a PhD student <a
-href="https://twitter.com/scsatcmu">@SCS@CMU</a> (dropped out in
-Winter-2014), intern <a href="https://twitter.com/Yelp">@Yelp</a>, and
-<a href="https://twitter.com/Microsoft">@Microsoft</a>.
+<div>
+              <div class="gallery">
+                <a href="http://blog.shriphani.com/2017/07/23/bookstand/">
+                  <img src="http://shriphani.com/bookstand.png" alt="Bookstand"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/07/23/bookstand/">
+                  <img src="http://shriphani.com/peacock2.png" alt="Peacock"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/06/05/a-segmented-flower-vase/">
+                  <img src="http://shriphani.com/vase.png" alt="Peacock"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/04/11/henna-baby-elephant/">
+                  <img src="http://shriphani.com/baby_elephant.png" alt="Baby Elephant"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/03/27/the-cartouche-coaster-collection/">
+                  <img src="http://shriphani.com/cartouche.png" alt="Cartouche Coasters"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/03/01/pegasus/">
+                  <img src="http://shriphani.com/pegasus.png" alt="Pegasus"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/02/13/seahorse-diptych-spray-paint-on-canvas/">
+                  <img src="http://shriphani.com/seahorse_diptych.png" alt="Seahorse Diptych"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/02/03/seahorse-black-acrylic-vinyl/">
+                  <img src="http://shriphani.com/seahorse.png" alt="A Frame That Listens"/>
+                </a>
+                <a href="http://blog.shriphani.com/2016/08/03/a-frame-that-listens/">
+                  <img src="http://shriphani.com/matrix.png" alt="A Frame That Listens"/>
+                </a>
+                <a href="http://blog.shriphani.com/2017/01/02/dragon/">
+                  <img src="http://shriphani.com/dragon.png" alt="Dragon" />
+                </a>
+                <a href="https://github.com/shriphani/pegasus">
+                  <img src="http://shriphani.com/pegasus_logo.png" alt="Pegasus crawler" />
+                </a>
+              </div>
+</div>
 
-I have worked on Search Engines, AI, and Data mining.
 
 # Contact
 
 * Email - <a href="http://www.google.com/recaptcha/mailhide/d?k=01Z_Xp9yosV3ruh7vybHUmHQ==&amp;c=wf4HdBLxinfTG54lRLyeMP7Dqq92aNXjrIyMw1vr7qw=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501Z_Xp9yosV3ruh7vybHUmHQ\75\75\46c\75wf4HdBLxinfTG54lRLyeMP7Dqq92aNXjrIyMw1vr7qw\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">s...</a>@gmail.com
 * Twitter - [@shriphani](https://twitter.com/shriphani)
-* Facebook - [@shriphani](http://www.facebook.com/shriphani)
-
+* Facebook - [@shriphani](https://www.facebook.com/shriphani)
+* Instagram - [@life_of_ess](https://www.instagram.com/life_of_ess/)
