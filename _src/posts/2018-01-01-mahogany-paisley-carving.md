@@ -2,6 +2,17 @@
     Date: 2018-01-01T21:47:13
     Tags: art, wood, woodworking, carving, wedding, paisley, indian, persian, british
 
+I carved this out of a slab of mahogany. The paisley shape originated in Persia,
+was adopted heavily in Indian design, is a regular feature in henna and other art forms,
+and was adopted heavily by the print industry in Glasgow.
+
+For this couple that contributed heavily to my life and my mental health, this was my way
+of saying thanks.
+
+I was operating on a very tight deadline so I couldn't clean things up as much as I wanted.
+
+As we say, the next piece will always be better.
+
 <img src="/img/paisley2.png" style="max-width: 100%;" class="nav3" />
 <div class="nav3">
 	<img src="/img/paisley1.png" class="iconsl" />
