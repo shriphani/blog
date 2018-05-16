@@ -18,6 +18,24 @@ Topics of interest for this website - aviation, hang-gliding, carpentry, woodwor
 
 <div>
               <div class="gallery">
+	        <a href="http://blog.shriphani.com/2018/03/28/cherry-purpleheart-spoon/">
+                  <img src="http://shriphani.com/spoon.png" alt="spoon" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/03/01/acanthus-leaf-black-walnut/">
+                  <img src="http://shriphani.com/acanthus.png" alt="paisley" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/01/01/mahogany-paisley-carving/">
+                  <img src="http://shriphani.com/paisley.png" alt="paisley" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/01/01/cedar-and-cherry-chopsticks/">
+                  <img src="http://shriphani.com/chopsticks.png" alt="chopsticks" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/01/01/kitchen-tools-spatula-and-serving-board/">
+                  <img src="http://shriphani.com/spatula.png" alt="spatula" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/01/01/basswood-carving/">
+                  <img src="http://shriphani.com/carving1.png" alt="carving" />
+                </a>
                 <a href="http://blog.shriphani.com/2017/07/23/bookstand/">
                   <img src="http://shriphani.com/bookstand.png" alt="Bookstand"/>
                 </a>
