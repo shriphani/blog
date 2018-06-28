@@ -18,6 +18,15 @@ Topics of interest for this website - aviation, hang-gliding, carpentry, woodwor
 
 <div>
               <div class="gallery">
+		<a href="http://blog.shriphani.com/2018/06/27/paisley-sculpture-1/">
+              	  <img src="http://shriphani.com/paisley_sculpture.jpg" alt="paisley_sculpture" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/06/27/jewelry-tray/">
+                  <img src="http://shriphani.com/paisley_tray.jpg" alt="paisley_tray" />
+                </a>
+                <a href="http://blog.shriphani.com/2018/06/27/mahogany-earrings/">
+                  <img src="http://shriphani.com/earrings.png" alt="earrings" />
+                </a>
 	        <a href="http://blog.shriphani.com/2018/03/28/cherry-purpleheart-spoon/">
                   <img src="http://shriphani.com/spoon.png" alt="spoon" />
                 </a>
