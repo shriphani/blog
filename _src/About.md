@@ -3,7 +3,7 @@
 
 #Shriphani Palakodety
 
-Engineer at Onai Technology.
+Software engineer, mixed media artist, woodworker
 
 Formerly with:
 
