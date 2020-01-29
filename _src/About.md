@@ -6,7 +6,8 @@ in Palo Alto, CA.
 
 # Press
 
-* December 19, 2016 - Interview with *The Hindu* : [How Shriphani Palakodety uses Big Data to create eye-catching visual maps of India
+* January 15, 2020 - *Carnegie Mellon News* : [Carnegie Mellon Leverages AI To Give Voice to the Voiceless](https://www.cs.cmu.edu/news/carnegie-mellon-leverages-ai-give-voice-voiceless)
+* December 19, 2019 - Interview with *The Hindu* : [How Shriphani Palakodety uses Big Data to create eye-catching visual maps of India
 ](https://www.thehindu.com/society/shriphani-palakodety-indiaviz-2019-instagram-data-visualisations-and-india-maps/article30347624.ece)
 
 # Projects
