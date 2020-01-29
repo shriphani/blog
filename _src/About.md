@@ -1,7 +1,7 @@
-<article>
-</article>
 
-Shriphani Palakodety is a sculptor, cartographer, mixed-media artist, and computer scientist based
+# Shriphani Palakodety
+
+**Shriphani Palakodety** is a sculptor, cartographer, mixed-media artist, and computer scientist based
 in Palo Alto, CA.
 
 # Press
@@ -13,10 +13,10 @@ in Palo Alto, CA.
 # Projects
 
 <h3>Sculpture</h3>
-<a href="https://www.instagram.com/life_of_ess/"><figure class="fullwidth"><img src="http://shriphani.com/life_of_ess_quilt.jpeg" alt="projects quilt" /></figure></a>
+<a href="https://www.instagram.com/life_of_ess/"><figure class="fullwidth"><img src="http://shriphani.com/sculpture_quilt.jpeg" alt="projects quilt"></figure></a>
 
 <h3>Cartography</h3>
-<a href="https://www.instagram.com/indiaviz/"><figure class="fullwidth"><img src="http://shriphani.com/carto_quilt_all.jpeg" alt="projects quilt" /></figure></a>
+<a href="https://www.instagram.com/indiaviz/"><figure class="fullwidth"><img src="http://shriphani.com/indiaviz_quilt.jpeg" alt="projects quilt"></figure></a>
 
 <h3>Research</h3>
 * [Google scholar](https://scholar.google.com/citations?user=3zIBRtkAAAAJ&hl=en)
