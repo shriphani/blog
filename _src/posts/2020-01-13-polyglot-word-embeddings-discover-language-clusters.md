@@ -57,7 +57,7 @@ You can download it (and models and everything) [here](http://shriphani.com/euro
 We can visualize the document embedding space using a TSNE plot:
 
 <figure>
-    <img src="/img/europarl_plot.png" />
+    <img src="/img/europarl_plot.png" /><br/>
     <caption>
     The document embedding space and 21 clusters discovered by $k$-Means.
     </caption>
@@ -73,11 +73,12 @@ written in exactly one language.
 
 ### <u>__A Language Identification System__</u>
 
-Once the steps above are followed, a value of $k$ chosen and $k$ clusters obtained,
-human annotators assign a language to each cluster (the dominant language i.e.).
+There are two undiscussed steps - picking a value of $k$, and assigning a language
+to one of these language clusters.
 
-Following the steps above, a cluster membership test can be used to assign
-a language to a test document (embedding).
+The latter is easy to solve - human annotators assign the dominant language 
+in each cluster as that cluster's language. A subsequent cluster membership test
+can be used for a test document.
 
 What remains to be discussed is picking a good $k$ value for the $k$-Means algorithm. 
 
