@@ -2,7 +2,7 @@
     Date: 2020-01-29T01:17:59
     Tags: art, woodcarving, woodworking, sculpture
 
-<img src="/img/2019_portfolio.png" alt="lily 4x4" width="50%">
+<img src="/img/2019_portfolio.png" alt="lily 4x4" />
 
 The 2019 portfolio:
 
