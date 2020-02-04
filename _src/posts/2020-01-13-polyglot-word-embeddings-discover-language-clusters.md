@@ -7,7 +7,7 @@ discover extremely high-quality language clusters.
 
 These can be trivially retrieved using an algorithm like $k-$Means giving us a fully unsupervised language identification system.
 
-Experiments show that these clusters are on-par with results produced by popular [open source](https://fasttext.cc/blog/2017/10/02/blog-post.html) and [commercial models](https://cloud.google.com/translate/docs/basic/detecting-language).
+Experiments show that these clusters are on-par with results produced by popular [open source](https://fasttext.cc/blog/2017/10/02/blog-post.html) (FastText LangID) and [commercial models](https://cloud.google.com/translate/docs/basic/detecting-language) (Google Cloud Translation).
 
 We have successfully used this technique in many situations involving several low-resource languages that
 are poorly supported by popular open source models.
