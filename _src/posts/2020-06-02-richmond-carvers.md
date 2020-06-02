@@ -5,7 +5,7 @@
 Third place in the Richmond carvers show for this maple panel.
 
 <figure>
-    <img src="/img/richmond_carvers.jpe g" />
+    <img src="/img/richmond_carvers.jpeg" />
 </figure>
 <!-- more -->
 
